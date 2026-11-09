@@ -70,7 +70,10 @@ window.LBC = {
   async phaseB(item) {
     const ta = await LBC.waitFor(() => document.querySelector('textarea'), 20000);
     if (!ta) return 'ERR description';
-    const cleanDesc = (item.desc || '').split('\n').filter(l => !/^\s*#/.test(l)).join('\n').replace(/\n{3,}/g, '\n\n').trim(); // regle leboncoin : pas de hashtags/mots-cles
+    const cleanDesc = (item.desc || '').split('\n').filter(l => !/^\s*#/.test(l))
+      // regle leboncoin marques : pas de "inspiration/style/type/esprit/genre/facon <Marque>"
+      .map(l => l.replace(/\s*(\/|,|-)?\s*(inspiration|inspiré[e]?s?\s+de|esprit|genre|façon|type|style|look|à la)\s+[A-Z][\wÀ-ÿ&'-]*/g, '').replace(/\s*(\/|,|-)\s*$/, ''))
+      .join('\n').replace(/\n{3,}/g, '\n\n').trim(); // regle leboncoin : pas de hashtags/mots-cles
     ta.focus(); LBC.setVal(ta, cleanDesc); ta.blur(); await LBC.sleep(1200);
     if (/(^|\s)#\w/.test(document.querySelector('textarea').value)) return 'ERR hashtags non retires';
     const price = [...document.querySelectorAll('input[type=text]')].find(i => /prix/i.test(i.getAttribute('aria-label') || '') || /price/i.test(i.name || i.id || ''));
@@ -119,7 +122,7 @@ LBC.run = async (item) => {
     const t = document.querySelector('input[type=text]').value; if (t !== item.title) throw 'ERR titre modifie: ' + t;
     await LBC.next();
     const nb = await LBC.waitFor(() => LBC.byText('button', /Déposer sans booster/), 25000);
-    if (!nb) throw 'ERR page options: ' + document.body.innerText.slice(0, 200);
+    if (!nb) { const tx = document.body.innerText; const m = tx.match(/Vous utilisez[^\n]*|interdit[^\n]*|[^\n]*(obligatoire|invalide|non autorisé)[^\n]*/); throw 'ERR page options: ' + (m ? m[0] : tx.slice(0, 200)); }
     LBC.click(nb);
     const ok = await LBC.waitFor(() => /confirmation/.test(location.href), 25000);
     if (!ok) throw 'ERR confirmation: ' + document.body.innerText.slice(0, 200);
