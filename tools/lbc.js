@@ -18,6 +18,12 @@ window.LBC = {
   },
   byText(sel, re) { return [...document.querySelectorAll(sel)].find(e => re.test((e.getAttribute('aria-label') || '').trim()) || re.test((e.innerText || '').trim())); },
   async phaseA(item) {
+    // brouillon repris a une etape avancee : revenir au titre
+    await LBC.waitFor(() => /Retour|titre de l/.test(document.body.innerText), 15000);
+    for (let k = 0; k < 4 && !/titre de l.annonce/i.test(document.body.innerText); k++) {
+      const r = [...document.querySelectorAll('button')].find(x => x.innerText.trim() === 'Retour');
+      if (!r) break; LBC.click(r); await LBC.sleep(2500);
+    }
     // titre
     const ti = await LBC.waitFor(() => [...document.querySelectorAll('input[type=text]')].find(i => /titre/i.test(i.getAttribute('aria-label') || '') || i.id === 'subject') || document.querySelector('input[type=text]'));
     if (!ti) return 'ERR titre introuvable';
