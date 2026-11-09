@@ -22,7 +22,7 @@ window.LBC = {
     const ti = await LBC.waitFor(() => [...document.querySelectorAll('input[type=text]')].find(i => /titre/i.test(i.getAttribute('aria-label') || '') || i.id === 'subject') || document.querySelector('input[type=text]'));
     if (!ti) return 'ERR titre introuvable';
     LBC.setVal(ti, ''); await LBC.sleep(200); LBC.setVal(ti, item.title);
-    const cat = await LBC.waitFor(() => LBC.byText('button,[role=button]', /^Choix 1/));
+    const cat = await LBC.waitFor(() => document.querySelector('[aria-label^="Choix 1"]'));
     if (!cat) return 'ERR categorie';
     const catLabel = cat.getAttribute('aria-label') || cat.innerText;
     LBC.click(cat);
