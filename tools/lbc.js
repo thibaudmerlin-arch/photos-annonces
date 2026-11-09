@@ -82,7 +82,7 @@ window.LBC = {
     if (item.reprice) { // prix recalcule : on se cale dans la fourchette conseillee par leboncoin
       await LBC.sleep(2500);
       const m = document.body.innerText.match(/Prix recommandé entre (\d+)\s*€ et (\d+)\s*€/);
-      if (m) { const lo = +m[1], hi = +m[2]; const np = Math.min(Math.max(item.price, lo), hi); item.recoRange = lo + '-' + hi; if (np !== item.price) { item.vintedPrice = item.price; item.price = np; LBC.setVal(price, String(np)); await LBC.sleep(800); } }
+      if (m) { const lo = +m[1], hi = +m[2]; const np = item.price > hi ? Math.max(hi, Math.round(item.price * 0.85)) : item.price < lo ? lo : item.price; /* baisse max 15 % */ item.recoRange = lo + '-' + hi; if (np !== item.price) { item.vintedPrice = item.price; item.price = np; LBC.setVal(price, String(np)); await LBC.sleep(800); } }
     }
     const addr = document.querySelector('input[placeholder="Adresse"]');
     if (addr && !/Muret \(31600\)/.test(addr.value)) {
