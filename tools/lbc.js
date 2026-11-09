@@ -20,7 +20,7 @@ window.LBC = {
   async phaseA(item) {
     // brouillon repris a une etape avancee : revenir au titre
     await LBC.waitFor(() => /Retour|titre de l/.test(document.body.innerText), 15000);
-    for (let k = 0; k < 4 && !/titre de l.annonce/i.test(document.body.innerText); k++) {
+    for (let k = 0; k < 6 && !/Commençons par l.essentiel/.test(document.body.innerText); k++) {
       const r = [...document.querySelectorAll('button')].find(x => x.innerText.trim() === 'Retour');
       if (!r) break; LBC.click(r); await LBC.sleep(2500);
     }
