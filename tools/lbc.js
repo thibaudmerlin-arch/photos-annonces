@@ -143,6 +143,7 @@ LBC.loop = async (ids, sha, pauseMs = 150000) => {
   for (const id of ids) {
     if (window.__loopStop) break;
     if (log.find(x => String(x.id) === String(id) && x.ok)) continue;
+    for (let att = 0; att < 2; att++) {
     let res = null, w = null;
     for (let tr = 0; tr < 4 && !w; tr++) {
       if (tr) { fr.remove(); fr = document.createElement('iframe'); fr.id = '__lbcFrame'; fr.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;z-index:99999;background:#fff;border:0'; document.body.appendChild(fr); await LBC.sleep(20000); }
@@ -156,7 +157,12 @@ LBC.loop = async (ids, sha, pauseMs = 150000) => {
     const entry = { id, ok: !!(res && res.ok), err: res && res.err, log: res && res.log, at: new Date().toISOString() };
     log.push(entry); localStorage.setItem('__lbcLog', JSON.stringify(log));
     window.__loopState.last = entry; window.__loopState.done++;
-    if (!entry.ok) { window.__loopState.running = false; window.__loopState.stoppedOn = id; return entry; }
+    if (entry.ok) break;
+    // erreur apres le clic "Deposer" : ne pas retenter (risque de doublon), verif par mail
+    if (/confirmation|timeout/.test(String(entry.err))) break;
+    await LBC.sleep(30000); // nouvel essai
+    }
+    if (!window.__loopState.last.ok) window.__loopState.skipped = (window.__loopState.skipped || []).concat(id);
     await LBC.sleep(60000 + Math.floor(Math.random() * 120000)); // pause aleatoire 1 a 3 min
   }
   window.__loopState.running = false; return 'fini';
