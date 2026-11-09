@@ -29,6 +29,7 @@ window.LBC = {
     // photos
     const inp = await LBC.waitFor(() => document.querySelector('input[type=file]'));
     if (!inp) return 'ERR input photo';
+    if (document.querySelectorAll('img[alt*="hoto"], [aria-label^="Photo n°"]').length > 0 || /Couverture/.test(document.body.innerText)) return 'ERR brouillon avec photos deja presentes';
     const dt = new DataTransfer();
     for (let k = 1; k <= item.n; k++) {
       const r = await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/main/photos/${item.id}/${k}.jpg`);
@@ -142,7 +143,7 @@ LBC.loop = async (ids, sha, pauseMs = 150000) => {
     log.push(entry); localStorage.setItem('__lbcLog', JSON.stringify(log));
     window.__loopState.last = entry; window.__loopState.done++;
     if (!entry.ok) { window.__loopState.running = false; window.__loopState.stoppedOn = id; return entry; }
-    await LBC.sleep(pauseMs);
+    await LBC.sleep(60000 + Math.floor(Math.random() * 120000)); // pause aleatoire 1 a 3 min
   }
   window.__loopState.running = false; return 'fini';
 };
