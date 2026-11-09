@@ -76,4 +76,48 @@ window.LBC = {
     return JSON.stringify({ desc: ta.value.length, price: price.value, addr: a2 && a2.value, livraison: liv });
   },
 };
+
+LBC.combo = async (labelRe, optRe) => {
+  const l = [...document.querySelectorAll('label')].find(x => labelRe.test(x.innerText.trim()));
+  if (!l) return 'nolabel';
+  const f = l.closest('[data-spark-component="form-field"]');
+  const btn = f.querySelector('button[aria-label="Ouvrir la liste"]') || f.querySelector('input[role=combobox]');
+  LBC.click(btn);
+  const o = await LBC.waitFor(() => [...document.querySelectorAll('[role=option]')].find(x => optRe.test(x.innerText.trim())), 5000);
+  if (!o) return 'noopt';
+  LBC.click(o); await LBC.sleep(600); return f.querySelector('input').value;
+};
+// Publie un article de bout en bout. item = {id,title,price,n,desc}. Résultat dans window.__lbcRes
+LBC.run = async (item) => {
+  const log = [];
+  try {
+    const a = await LBC.phaseA(item); log.push(a); if (!a.startsWith('OK')) throw a;
+    const etat = await LBC.combo(/^État/, /^Très bon état$/); log.push('etat:' + etat);
+    // champs obligatoires vides ?
+    const empty = [...document.querySelectorAll('label')].filter(l => /\*$/.test(l.innerText.trim())).filter(l => { const f = l.closest('[data-spark-component="form-field"]'); const i = f && f.querySelector('input'); return i && !i.value; }).map(l => l.innerText.trim());
+    if (empty.length) throw 'ERR champs obligatoires vides: ' + empty.join(', ');
+    await LBC.next();
+    const b = await LBC.phaseB(item); log.push(b); if (b.startsWith('ERR')) throw b;
+    const chk = JSON.parse(b); if (chk.addr !== 'Muret (31600)' || !chk.livraison || String(chk.price) !== String(item.price)) throw 'ERR verif ' + b;
+    const t = document.querySelector('input[type=text]').value; if (t !== item.title) throw 'ERR titre modifie: ' + t;
+    await LBC.next();
+    const nb = await LBC.waitFor(() => LBC.byText('button', /Déposer sans booster/), 25000);
+    if (!nb) throw 'ERR page options: ' + document.body.innerText.slice(0, 200);
+    LBC.click(nb);
+    const ok = await LBC.waitFor(() => /confirmation/.test(location.href), 25000);
+    if (!ok) throw 'ERR confirmation: ' + document.body.innerText.slice(0, 200);
+    log.push('PUBLIE');
+    window.__lbcRes = { ok: true, log };
+  } catch (e) { window.__lbcRes = { ok: false, log, err: String(e) }; }
+  return window.__lbcRes;
+};
+// Charge items.json depuis GitHub et publie l'article id
+LBC.runId = async (id, sha) => {
+  window.__lbcRes = null;
+  const items = await (await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/${sha}/items.json`)).json();
+  const it = items.find(x => String(x.id) === String(id));
+  if (!it) { window.__lbcRes = { ok: false, err: 'id absent de items.json' }; return; }
+  return LBC.run(it);
+};
+
 'LBC chargé';

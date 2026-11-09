@@ -1,8 +1,21 @@
 {
   "note": "Suivi Vinted (xrbkz, member 87195172) -> leboncoin. Ne pas modifier a la main.",
   "posted": {
-    "10722569621": {"title": "Doudoune Columbia femme – Taille L", "price": "40.0", "date": "2026-11-09"},
-    "10732332531": {"title": "Haut Desigual femme – Taille XS – Très bon état", "price": "22.0", "date": "2026-11-09"}
+    "10722569621": {
+      "title": "Doudoune Columbia femme – Taille L",
+      "price": "40.0",
+      "date": "2026-11-09"
+    },
+    "10732332531": {
+      "title": "Haut Desigual femme – Taille XS – Très bon état",
+      "price": "22.0",
+      "date": "2026-11-09"
+    },
+    "10723431531": {
+      "title": "Bottes hautes noires à lacets – Taille 36 – Comme neuves",
+      "price": "30.0",
+      "date": "2026-11-09"
+    }
   },
   "missing_once": {}
 }
