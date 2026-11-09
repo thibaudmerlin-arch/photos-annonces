@@ -28,8 +28,12 @@ window.LBC = {
     const ti = await LBC.waitFor(() => [...document.querySelectorAll('input[type=text]')].find(i => /titre/i.test(i.getAttribute('aria-label') || '') || i.id === 'subject') || document.querySelector('input[type=text]'));
     if (!ti) return 'ERR titre introuvable';
     LBC.setVal(ti, ''); await LBC.sleep(200); LBC.setVal(ti, item.title);
-    const cat = await LBC.waitFor(() => document.querySelector('[aria-label^="Choix 1"]'));
-    if (!cat) return 'ERR categorie';
+    const top = String(item.vcat || '').split('>');
+    if (!/^(Hommes|Femmes|Enfants)$/.test(top[0])) return 'ERR rayon Vinted inconnu: ' + item.vcat;
+    const want = top[1] === 'Chaussures' ? /catégorie Chaussures/ : /^(Accessoires|Sacs)/.test(top[1] || '') ? /Accessoires|Bagagerie|Montres|Bijoux/ : /catégorie Vêtements dans/;
+    if (!(await LBC.waitFor(() => document.querySelector('[aria-label^="Choix 1"]'), 20000))) { LBC.setVal(ti, item.title + ' '); await LBC.sleep(300); LBC.setVal(ti, item.title); }
+    const cat = await LBC.waitFor(() => [...document.querySelectorAll('[aria-label^="Choix"]')].find(e => want.test(e.getAttribute('aria-label'))), 20000);
+    if (!cat) return 'ERR categorie (voulue ' + want + ', proposees: ' + [...document.querySelectorAll('[aria-label^="Choix"]')].map(e => e.getAttribute('aria-label')).join(' | ') + ')';
     const catLabel = cat.getAttribute('aria-label') || cat.innerText;
     LBC.click(cat);
     // photos
@@ -102,9 +106,9 @@ LBC.run = async (item) => {
     const a = await LBC.phaseA(item); log.push(a); if (!a.startsWith('OK')) throw a;
     const etat = await LBC.combo(/^État/, /^Très bon état$/); log.push('etat:' + etat);
     if ([...document.querySelectorAll('label')].some(l => /^Univers/.test(l.innerText.trim()))) {
-      const t = (item.title + ' ' + item.desc).toLowerCase();
-      const u = /\b(enfant|fille|garçon|garcon|bébé|bebe)\b/.test(t) ? 'Enfant' : (/\bhomme\b/.test(t) && !/\bfemme\b/.test(t)) ? 'Homme' : 'Femme';
-      log.push('univers:' + await LBC.combo(/^Univers/, new RegExp('^' + u + '$')));
+      const u = { Hommes: 'Homme', Femmes: 'Femme', Enfants: 'Enfant' }[String(item.vcat).split('>')[0]];
+      const got = await LBC.combo(/^Univers/, new RegExp('^' + u + '$'));
+      log.push('univers:' + got); if (got !== u) throw 'ERR univers ' + got + ' au lieu de ' + u;
     }
     // champs obligatoires vides ?
     const empty = [...document.querySelectorAll('label')].filter(l => /\*$/.test(l.innerText.trim())).filter(l => { const f = l.closest('[data-spark-component="form-field"]'); const i = f && f.querySelector('input'); return i && !i.value; }).map(l => l.innerText.trim());
@@ -127,7 +131,7 @@ LBC.run = async (item) => {
 // Charge items.json depuis GitHub et publie l'article id
 LBC.runId = async (id, sha) => {
   window.__lbcRes = null;
-  const items = await (await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/${sha}/items.json`)).json();
+  const items = await (await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/main/items.json?t=${Date.now()}`)).json();
   const it = items.find(x => String(x.id) === String(id));
   if (!it) { window.__lbcRes = { ok: false, err: 'id absent de items.json' }; return; }
   return LBC.run(it);
