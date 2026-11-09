@@ -143,12 +143,16 @@ LBC.loop = async (ids, sha, pauseMs = 150000) => {
   for (const id of ids) {
     if (window.__loopStop) break;
     if (log.find(x => String(x.id) === String(id) && x.ok)) continue;
-    fr.src = 'https://www.leboncoin.fr/deposer-une-annonce?' + Date.now();
-    await new Promise(r => { fr.onload = r; });
-    await LBC.sleep(3500);
-    const w = fr.contentWindow;
-    w.eval(code);
-    const res = await w.LBC.runId(id, sha);
+    let res = null, w = null;
+    for (let tr = 0; tr < 4 && !w; tr++) {
+      if (tr) { fr.remove(); fr = document.createElement('iframe'); fr.id = '__lbcFrame'; fr.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;z-index:99999;background:#fff;border:0'; document.body.appendChild(fr); await LBC.sleep(20000); }
+      fr.src = 'https://www.leboncoin.fr/deposer-une-annonce?' + Date.now();
+      await Promise.race([new Promise(r => { fr.onload = r; }), LBC.sleep(60000)]);
+      await LBC.sleep(3500);
+      try { if (fr.contentDocument && /leboncoin\.fr\/deposer/.test(fr.contentWindow.location.href)) w = fr.contentWindow; } catch (e) {}
+    }
+    if (!w) res = { ok: false, err: 'ERR page depot inaccessible (iframe bloque)' };
+    else { w.eval(code); res = await Promise.race([w.LBC.runId(id, sha), LBC.sleep(420000).then(() => ({ ok: false, err: 'ERR timeout 7 min' }))]); }
     const entry = { id, ok: !!(res && res.ok), err: res && res.err, log: res && res.log, at: new Date().toISOString() };
     log.push(entry); localStorage.setItem('__lbcLog', JSON.stringify(log));
     window.__loopState.last = entry; window.__loopState.done++;
