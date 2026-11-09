@@ -157,7 +157,19 @@ LBC.loop = async (ids, sha, pauseMs = 150000) => {
       await LBC.sleep(3500);
       try { if (fr.contentDocument && /leboncoin\.fr\/deposer/.test(fr.contentWindow.location.href)) w = fr.contentWindow; } catch (e) {}
     }
-    if (!w) res = { ok: false, err: 'ERR page depot inaccessible (iframe bloque)' };
+    // brouillon repris a une etape avancee : "Quitter sans enregistrer" puis recharger
+    for (let q = 0; w && q < 3; q++) {
+      const d = w.document;
+      await LBC.waitFor(() => /Commençons par l.essentiel|Un dernier aperçu|Dites-nous en plus|Retour/.test(d.body.innerText), 15000);
+      if (/Commençons par l.essentiel/.test(d.body.innerText)) break;
+      const qb = [...d.querySelectorAll('button')].find(b => b.innerText.trim() === 'Quitter' || b.getAttribute('aria-label') === 'Quitter');
+      if (qb) { qb.click(); await LBC.sleep(1500); const nb = [...d.querySelectorAll('[role=dialog] button')].find(b => /sans enregistrer/.test(b.innerText)); if (nb) nb.click(); await LBC.sleep(3000); }
+      fr.src = 'https://www.leboncoin.fr/deposer-une-annonce?' + Date.now();
+      await Promise.race([new Promise(r => { fr.onload = r; }), LBC.sleep(60000)]); await LBC.sleep(3500);
+      try { w = fr.contentDocument && /leboncoin\.fr\/deposer/.test(fr.contentWindow.location.href) ? fr.contentWindow : null; } catch (e) { w = null; }
+    }
+    if (w && !/Commençons par l.essentiel/.test(w.document.body.innerText)) { res = { ok: false, err: 'ERR brouillon impossible a effacer' }; w = null; }
+    else if (!w) res = { ok: false, err: 'ERR page depot inaccessible (iframe bloque)' };
     else { w.eval(code); res = await Promise.race([w.LBC.runId(id, sha), LBC.sleep(420000).then(() => ({ ok: false, err: 'ERR timeout 7 min' }))]); }
     const entry = { id, ok: !!(res && res.ok), err: res && res.err, log: res && res.log, at: new Date().toISOString() };
     log.push(entry); localStorage.setItem('__lbcLog', JSON.stringify(log));
