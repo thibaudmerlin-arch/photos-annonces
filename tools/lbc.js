@@ -60,7 +60,8 @@ window.LBC = {
   async phaseB(item) {
     const ta = await LBC.waitFor(() => document.querySelector('textarea'), 20000);
     if (!ta) return 'ERR description';
-    LBC.setVal(ta, item.desc);
+    const cleanDesc = (item.desc || '').split('\n').filter(l => !/^\s*#/.test(l)).join('\n').replace(/\n{3,}/g, '\n\n').trim(); // regle leboncoin : pas de hashtags/mots-cles
+    LBC.setVal(ta, cleanDesc);
     const price = [...document.querySelectorAll('input[type=text]')].find(i => /prix/i.test(i.getAttribute('aria-label') || '') || /price/i.test(i.name || i.id || ''));
     if (!price) return 'ERR prix';
     LBC.setVal(price, String(item.price));
