@@ -151,6 +151,7 @@ LBC.loop = async (ids, sha, pauseMs = 150000) => {
     let res = null, w = null;
     for (let tr = 0; tr < 4 && !w; tr++) {
       if (tr) { fr.remove(); fr = document.createElement('iframe'); fr.id = '__lbcFrame'; fr.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;z-index:99999;background:#fff;border:0'; document.body.appendChild(fr); await LBC.sleep(20000); }
+      try { sessionStorage.removeItem('dynamicDepositForm'); } catch (e) {} // efface le brouillon leboncoin
       fr.src = 'https://www.leboncoin.fr/deposer-une-annonce?' + Date.now();
       await Promise.race([new Promise(r => { fr.onload = r; }), LBC.sleep(60000)]);
       await LBC.sleep(3500);
