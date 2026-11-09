@@ -29,7 +29,6 @@ window.LBC = {
     // photos
     const inp = await LBC.waitFor(() => document.querySelector('input[type=file]'));
     if (!inp) return 'ERR input photo';
-    if (document.querySelectorAll('img[alt*="hoto"], [aria-label^="Photo n°"]').length > 0 || /Couverture/.test(document.body.innerText)) return 'ERR brouillon avec photos deja presentes';
     const dt = new DataTransfer();
     for (let k = 1; k <= item.n; k++) {
       const r = await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/main/photos/${item.id}/${k}.jpg`);
