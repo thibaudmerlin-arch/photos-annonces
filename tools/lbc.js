@@ -95,6 +95,11 @@ LBC.run = async (item) => {
   try {
     const a = await LBC.phaseA(item); log.push(a); if (!a.startsWith('OK')) throw a;
     const etat = await LBC.combo(/^État/, /^Très bon état$/); log.push('etat:' + etat);
+    if ([...document.querySelectorAll('label')].some(l => /^Univers/.test(l.innerText.trim()))) {
+      const t = (item.title + ' ' + item.desc).toLowerCase();
+      const u = /\b(enfant|fille|garçon|garcon|bébé|bebe)\b/.test(t) ? 'Enfant' : (/\bhomme\b/.test(t) && !/\bfemme\b/.test(t)) ? 'Homme' : 'Femme';
+      log.push('univers:' + await LBC.combo(/^Univers/, new RegExp('^' + u + '$')));
+    }
     // champs obligatoires vides ?
     const empty = [...document.querySelectorAll('label')].filter(l => /\*$/.test(l.innerText.trim())).filter(l => { const f = l.closest('[data-spark-component="form-field"]'); const i = f && f.querySelector('input'); return i && !i.value; }).map(l => l.innerText.trim());
     if (empty.length) throw 'ERR champs obligatoires vides: ' + empty.join(', ');
