@@ -29,8 +29,8 @@ window.LBC = {
     if (!ti) return 'ERR titre introuvable';
     LBC.setVal(ti, ''); await LBC.sleep(200); LBC.setVal(ti, item.title);
     const top = String(item.vcat || '').split('>');
-    if (!/^(Hommes|Femmes|Enfants)$/.test(top[0])) return 'ERR rayon Vinted inconnu: ' + item.vcat;
-    const want = top[1] === 'Chaussures' ? /catégorie Chaussures/ : /^(Accessoires|Sacs)/.test(top[1] || '') ? /Accessoires|Bagagerie|Montres|Bijoux/ : /catégorie Vêtements dans/;
+    if (!item.lbcCat && !/^(Hommes|Femmes|Enfants)$/.test(top[0])) return 'ERR rayon Vinted inconnu: ' + item.vcat;
+    const want = item.lbcCat ? new RegExp(item.lbcCat) : top[1] === 'Chaussures' ? /catégorie Chaussures/ : /^(Accessoires|Sacs)/.test(top[1] || '') ? /Accessoires|Bagagerie|Montres|Bijoux/ : /catégorie Vêtements dans/;
     if (!(await LBC.waitFor(() => document.querySelector('[aria-label^="Choix 1"]'), 20000))) { LBC.setVal(ti, item.title + ' '); await LBC.sleep(300); LBC.setVal(ti, item.title); }
     const cat = await LBC.waitFor(() => [...document.querySelectorAll('[aria-label^="Choix"]')].find(e => want.test(e.getAttribute('aria-label'))), 20000);
     if (!cat) return 'ERR categorie (voulue ' + want + ', proposees: ' + [...document.querySelectorAll('[aria-label^="Choix"]')].map(e => e.getAttribute('aria-label')).join(' | ') + ')';
@@ -79,6 +79,11 @@ window.LBC = {
     const price = [...document.querySelectorAll('input[type=text]')].find(i => /prix/i.test(i.getAttribute('aria-label') || '') || /price/i.test(i.name || i.id || ''));
     if (!price) return 'ERR prix';
     LBC.setVal(price, String(item.price));
+    if (item.reprice) { // prix recalcule : on se cale dans la fourchette conseillee par leboncoin
+      await LBC.sleep(2500);
+      const m = document.body.innerText.match(/Prix recommandé entre (\d+)\s*€ et (\d+)\s*€/);
+      if (m) { const lo = +m[1], hi = +m[2]; const np = Math.min(Math.max(item.price, lo), hi); item.recoRange = lo + '-' + hi; if (np !== item.price) { item.vintedPrice = item.price; item.price = np; LBC.setVal(price, String(np)); await LBC.sleep(800); } }
+    }
     const addr = document.querySelector('input[placeholder="Adresse"]');
     if (addr && !/Muret \(31600\)/.test(addr.value)) {
       addr.focus(); LBC.setVal(addr, ''); await LBC.sleep(300); LBC.setVal(addr, 'Muret 31600');
@@ -88,7 +93,7 @@ window.LBC = {
     }
     const a2 = document.querySelector('input[placeholder="Adresse"]');
     const liv = /Désactiver la livraison/.test(document.body.innerHTML);
-    return JSON.stringify({ desc: ta.value.length, price: price.value, addr: a2 && a2.value, livraison: liv });
+    return JSON.stringify({ desc: ta.value.length, price: price.value, vinted: item.vintedPrice, reco: item.recoRange, addr: a2 && a2.value, livraison: liv });
   },
 };
 
