@@ -182,7 +182,7 @@ LBC.loop = async (ids, sha, pauseMs = 150000) => {
     await LBC.sleep(30000); // nouvel essai
     }
     if (!window.__loopState.last.ok) window.__loopState.skipped = (window.__loopState.skipped || []).concat(id);
-    await LBC.sleep(180000 + Math.floor(Math.random() * 180000)); // pause aleatoire 3 a 6 min
+    await LBC.sleep(60000 + Math.floor(Math.random() * 120000)); // pause aleatoire 1 a 3 min
   }
   window.__loopState.running = false; return 'fini';
 };
