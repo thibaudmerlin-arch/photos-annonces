@@ -61,7 +61,8 @@ window.LBC = {
     const ta = await LBC.waitFor(() => document.querySelector('textarea'), 20000);
     if (!ta) return 'ERR description';
     const cleanDesc = (item.desc || '').split('\n').filter(l => !/^\s*#/.test(l)).join('\n').replace(/\n{3,}/g, '\n\n').trim(); // regle leboncoin : pas de hashtags/mots-cles
-    LBC.setVal(ta, cleanDesc);
+    ta.focus(); LBC.setVal(ta, cleanDesc); ta.blur(); await LBC.sleep(1200);
+    if (/(^|\s)#\w/.test(document.querySelector('textarea').value)) return 'ERR hashtags non retires';
     const price = [...document.querySelectorAll('input[type=text]')].find(i => /prix/i.test(i.getAttribute('aria-label') || '') || /price/i.test(i.name || i.id || ''));
     if (!price) return 'ERR prix';
     LBC.setVal(price, String(item.price));
@@ -119,6 +120,31 @@ LBC.runId = async (id, sha) => {
   const it = items.find(x => String(x.id) === String(id));
   if (!it) { window.__lbcRes = { ok: false, err: 'id absent de items.json' }; return; }
   return LBC.run(it);
+};
+
+// Boucle autonome : publie les ids un par un dans une iframe (même origine), s'arrête à la 1re erreur.
+LBC.loop = async (ids, sha, pauseMs = 150000) => {
+  const code = await (await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/${sha}/tools/lbc.js`)).text();
+  let fr = document.getElementById('__lbcFrame');
+  if (!fr) { fr = document.createElement('iframe'); fr.id = '__lbcFrame'; fr.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;z-index:99999;background:#fff;border:0'; document.body.appendChild(fr); }
+  const log = JSON.parse(localStorage.getItem('__lbcLog') || '[]');
+  window.__loopState = { running: true, done: 0, total: ids.length, last: null };
+  for (const id of ids) {
+    if (window.__loopStop) break;
+    if (log.find(x => String(x.id) === String(id) && x.ok)) continue;
+    fr.src = 'https://www.leboncoin.fr/deposer-une-annonce?' + Date.now();
+    await new Promise(r => { fr.onload = r; });
+    await LBC.sleep(3500);
+    const w = fr.contentWindow;
+    w.eval(code);
+    const res = await w.LBC.runId(id, sha);
+    const entry = { id, ok: !!(res && res.ok), err: res && res.err, log: res && res.log, at: new Date().toISOString() };
+    log.push(entry); localStorage.setItem('__lbcLog', JSON.stringify(log));
+    window.__loopState.last = entry; window.__loopState.done++;
+    if (!entry.ok) { window.__loopState.running = false; window.__loopState.stoppedOn = id; return entry; }
+    await LBC.sleep(pauseMs);
+  }
+  window.__loopState.running = false; return 'fini';
 };
 
 'LBC chargé';
