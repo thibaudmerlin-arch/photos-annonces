@@ -16,7 +16,7 @@ window.LBC = {
     ['pointerdown', 'mousedown', 'pointerup', 'mouseup'].forEach(t => el.dispatchEvent(new MouseEvent(t, { bubbles: true })));
     el.click();
   },
-  byText(sel, re) { return [...document.querySelectorAll(sel)].find(e => re.test((e.innerText || e.getAttribute('aria-label') || '').trim())); },
+  byText(sel, re) { return [...document.querySelectorAll(sel)].find(e => re.test((e.getAttribute('aria-label') || '').trim()) || re.test((e.innerText || '').trim())); },
   async phaseA(item) {
     // titre
     const ti = await LBC.waitFor(() => [...document.querySelectorAll('input[type=text]')].find(i => /titre/i.test(i.getAttribute('aria-label') || '') || i.id === 'subject') || document.querySelector('input[type=text]'));
