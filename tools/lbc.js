@@ -68,7 +68,7 @@ window.LBC = {
   },
   async next() { const b = LBC.byText('button', /^Continuer$/); if (!b) return 'ERR continuer'; LBC.click(b); return 'ok'; },
   async phaseB(item) {
-    const ta = await LBC.waitFor(() => document.querySelector('textarea'), 20000);
+    const ta = await LBC.waitFor(() => document.querySelector('textarea'), 60000);
     if (!ta) return 'ERR description';
     const cleanDesc = (item.desc || '').split('\n').filter(l => !/^\s*#/.test(l))
       // regle leboncoin marques : pas de "inspiration/style/type/esprit/genre/facon <Marque>"
