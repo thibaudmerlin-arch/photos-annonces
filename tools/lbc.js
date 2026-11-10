@@ -85,9 +85,9 @@ window.LBC = {
       if (m) { const lo = +m[1], hi = +m[2]; const np = item.price > hi ? Math.max(hi, Math.round(item.price * 0.85)) : item.price < lo ? lo : item.price; /* baisse max 15 % */ item.recoRange = lo + '-' + hi; if (np !== item.price) { item.vintedPrice = item.price; item.price = np; LBC.setVal(price, String(np)); await LBC.sleep(800); } }
     }
     const addr = document.querySelector('input[placeholder="Adresse"]');
-    if (addr && !/Muret \(31600\)/.test(addr.value)) {
-      addr.focus(); LBC.setVal(addr, ''); await LBC.sleep(300); LBC.setVal(addr, 'Muret 31600');
-      const o = await LBC.waitFor(() => [...document.querySelectorAll('[role=option]')].find(x => x.innerText.trim().startsWith('Muret (31600)')), 8000);
+    if (addr && !/Toulouse \(31000\)/.test(addr.value)) {
+      addr.focus(); LBC.setVal(addr, ''); await LBC.sleep(300); LBC.setVal(addr, 'Toulouse 31000');
+      const o = await LBC.waitFor(() => [...document.querySelectorAll('[role=option], [role=listbox] li, ul[id$="-menu"] li')].find(x => x.innerText.trim() === 'Toulouse (31000)'), 8000);
       if (!o) return 'ERR adresse';
       LBC.click(o); await LBC.sleep(1000);
     }
@@ -123,7 +123,7 @@ LBC.run = async (item) => {
     if (empty.length) throw 'ERR champs obligatoires vides: ' + empty.join(', ');
     await LBC.next();
     const b = await LBC.phaseB(item); log.push(b); if (b.startsWith('ERR')) throw b;
-    const chk = JSON.parse(b); if (chk.addr !== 'Muret (31600)' || !chk.livraison || String(chk.price) !== String(item.price)) throw 'ERR verif ' + b;
+    const chk = JSON.parse(b); if (chk.addr !== 'Toulouse (31000)' || !chk.livraison || String(chk.price) !== String(item.price)) throw 'ERR verif ' + b;
     const t = document.querySelector('input[type=text]').value; if (t !== item.title) throw 'ERR titre modifie: ' + t;
     await LBC.next();
     const nb = await LBC.waitFor(() => LBC.byText('button', /Déposer sans booster/), 25000);
