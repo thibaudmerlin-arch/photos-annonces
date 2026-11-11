@@ -41,7 +41,7 @@ window.LBC = {
     if (!inp) return 'ERR input photo';
     const dt = new DataTransfer();
     for (let k = 1; k <= item.n; k++) {
-      const r = await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/main/photos/${item.id}/${k}.jpg`);
+      const r = await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/main/photos/${item.photoId || item.id}/${k}.jpg`);
       if (!r.ok) return 'ERR photo ' + k + ' HTTP ' + r.status;
       dt.items.add(new File([await r.blob()], `photo-${k}.jpg`, { type: 'image/jpeg' }));
     }
