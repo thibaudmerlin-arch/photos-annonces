@@ -52,6 +52,44 @@ window.LBR = {
     catch (e) { res = 'ERR iframe ' + e.message; }
     fr.remove(); return res;
   },
+  // titre public actuel d'une annonce
+  async subject(id) {
+    const r = await fetch(`/ad/vetements/${id}`, { cache: 'no-store', credentials: 'omit' });
+    const m = (await r.text()).match(/<script id="__NEXT_DATA__"[^>]*>(.*?)<\/script>/s);
+    try { return JSON.parse(m[1]).props.pageProps.ad.subject; } catch (e) { return null; }
+  },
+  // règle Thibaud (ALEX-038/039/040) : aucune remise en vente si une conversation sur cette annonce
+  // a eu un échange il y a moins de 120 h. Lecture de la messagerie dans une page fraîche.
+  // Retourne 'OK' (aucune conversation récente) ou 'SKIP …'. En cas de doute : SKIP.
+  async convGuard(title) {
+    if (!title) return 'SKIP titre illisible';
+    const fr = document.createElement('iframe'); fr.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;z-index:99997;background:#fff;border:0';
+    document.body.appendChild(fr);
+    fr.src = 'https://www.leboncoin.fr/messages?' + Date.now();
+    await Promise.race([new Promise(r => { fr.onload = r; }), LBR.S(60000)]); await LBR.S(6000);
+    let items = [];
+    try {
+      const d = fr.contentDocument;
+      for (let i = 0; i < 15; i++) {
+        const ls = [...d.querySelectorAll('a[href*="/messages/id/"]')];
+        if (ls.length) { ls.at(-1).scrollIntoView(); }
+        await LBR.S(800);
+        const n2 = d.querySelectorAll('a[href*="/messages/id/"]').length; if (n2 === ls.length && i > 2) break;
+      }
+      items = [...d.querySelectorAll('a[href*="/messages/id/"]')].map(a => a.innerText.split('\n').map(x => x.trim()).filter(Boolean));
+    } catch (e) { fr.remove(); return 'SKIP messagerie illisible'; }
+    fr.remove();
+    if (!items.length) return 'SKIP messagerie vide ou non chargée';
+    const norm = t => t.toLowerCase().replace(/\s+/g, ' ').trim();
+    const hits = items.filter(x => x.some(l => norm(l) === norm(title)));
+    for (const h of hits) {
+      const t = h.find(l => /il y a|hier|aujourd|\d{1,2}\/\d{1,2}|\d{1,2} \w+\.? ?\d{0,4}$/i.test(l)) || '';
+      const m = t.match(/il y a (\d+) j/);
+      const old = (m && +m[1] >= 6) || /\d{1,2}\/\d{1,2}\/\d{2,4}/.test(t);
+      if (!old) return 'SKIP conversation de moins de 120 h ou date incertaine (' + t + ')';
+    }
+    return 'OK ' + hits.length + ' conversation(s) ancienne(s)';
+  },
   // pairs : [[ancienId, nouvelIdItems], ...]
   async run(pairs, sha) {
     const log = JSON.parse(localStorage.getItem('__repostLog') || '[]');
@@ -63,6 +101,10 @@ window.LBR = {
       let del = prev ? prev.del : null;
       if (!del) {
         const st = await LBR.status(oldId);
+        if (st === 200) {
+          const g = await LBR.convGuard(await LBR.subject(oldId));
+          if (!/^OK/.test(g)) { const e = { oldId, newId, del: g, pub: null, at: new Date().toISOString() }; log.push(e); localStorage.setItem('__repostLog', JSON.stringify(log)); window.__repostState.res.push(e); continue; }
+        }
         del = (st === 410 || st === 404) ? 'OK deja hors ligne ' + st : await LBR.delOldFresh(oldId);
         if (/^SKIP/.test(del)) { log.push({ oldId, newId, del, pub: null, at: new Date().toISOString() }); localStorage.setItem('__repostLog', JSON.stringify(log)); window.__repostState.res.push({ oldId, del }); continue; }
         if (!/^OK/.test(del)) { await LBR.S(8000); const st2 = await LBR.status(oldId); del = (st2 === 410 || st2 === 404) ? 'OK (2e essai) ' + st2 : await LBR.delOldFresh(oldId); }
