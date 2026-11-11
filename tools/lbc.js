@@ -129,7 +129,7 @@ LBC.run = async (item) => {
     const nb = await LBC.waitFor(() => LBC.byText('button', /Déposer sans booster/), 60000);
     if (!nb) { const tx = document.body.innerText; const m = tx.match(/Vous utilisez[^\n]*|interdit[^\n]*|[^\n]*(obligatoire|invalide|non autorisé)[^\n]*/); throw 'ERR page options: ' + (m ? m[0] : tx.slice(0, 200)); }
     LBC.click(nb);
-    const ok = await LBC.waitFor(() => /confirmation/.test(location.href), 25000);
+    const ok = await LBC.waitFor(() => /confirmation/.test(location.href), 60000);
     if (!ok) throw 'ERR confirmation: ' + document.body.innerText.slice(0, 200);
     log.push('PUBLIE');
     window.__lbcRes = { ok: true, log };
