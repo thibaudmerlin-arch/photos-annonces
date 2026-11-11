@@ -36,6 +36,18 @@ window.LBR = {
     for (let k = 0; k < 6; k++) { const st = await LBR.status(id); if (st === 410 || st === 404) return 'OK ' + st; await S(5000); }
     return 'ERR ancienne encore en ligne';
   },
+  // suppression depuis une page « Mes annonces » fraîchement chargée (iframe même origine)
+  async delOldFresh(id) {
+    const code = window.__lbrCode || await (await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/${localStorage.__lbcSha}/tools/repost.js`)).text();
+    let fr = document.createElement('iframe'); fr.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;z-index:99998;background:#fff;border:0';
+    document.body.appendChild(fr);
+    fr.src = 'https://www.leboncoin.fr/compte/part/mes-annonces?' + Date.now();
+    await Promise.race([new Promise(r => { fr.onload = r; }), LBR.S(60000)]); await LBR.S(5000);
+    let res;
+    try { fr.contentWindow.eval(code); res = await Promise.race([fr.contentWindow.LBR.delOld(id), LBR.S(150000).then(() => 'ERR timeout suppression')]); }
+    catch (e) { res = 'ERR iframe ' + e.message; }
+    fr.remove(); return res;
+  },
   // pairs : [[ancienId, nouvelIdItems], ...]
   async run(pairs, sha) {
     const log = JSON.parse(localStorage.getItem('__repostLog') || '[]');
@@ -47,13 +59,15 @@ window.LBR = {
       let del = prev ? prev.del : null;
       if (!del) {
         const st = await LBR.status(oldId);
-        del = (st === 410 || st === 404) ? 'OK deja hors ligne ' + st : await LBR.delOld(oldId);
-        if (!/^OK/.test(del)) { location.hash = ''; window.scrollTo(0, 0); await LBR.S(8000); const st2 = await LBR.status(oldId); del = (st2 === 410 || st2 === 404) ? 'OK (2e essai) ' + st2 : await LBR.delOld(oldId); }
+        del = (st === 410 || st === 404) ? 'OK deja hors ligne ' + st : await LBR.delOldFresh(oldId);
+        if (!/^OK/.test(del)) { await LBR.S(8000); const st2 = await LBR.status(oldId); del = (st2 === 410 || st2 === 404) ? 'OK (2e essai) ' + st2 : await LBR.delOldFresh(oldId); }
       }
       const entry = { oldId, newId, del, pub: null, at: new Date().toISOString() };
       if (/^OK/.test(del)) {
         localStorage.removeItem('__lbcLog_tmp');
+        document.getElementById('__lbcFrame')?.remove();
         const res = await LBC.loop([newId], sha, 0);
+        document.getElementById('__lbcFrame')?.remove();
         const last = window.__loopState && window.__loopState.last;
         entry.pub = last && last.ok ? 'PUBLIE' : 'ECHEC ' + (last && (last.err || '')).slice(0, 120);
       }
