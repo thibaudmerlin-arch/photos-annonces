@@ -23,6 +23,10 @@ window.LBR = {
     if (!a) return 'ERR introuvable';
     a.scrollIntoView({ block: 'center' }); await S(500);
     let card = a; for (let i = 0; i < 10 && card; i++) { if ([...card.querySelectorAll('button')].length >= 2) break; card = card.parentElement; }
+    // garde-fou : jamais de remise en vente d'une annonce avec conversation ou favori (relevé en direct)
+    let box = a; for (let i = 0; i < 14 && box; i++) { if (box.querySelector('[aria-label*="conversation"]')) break; box = box.parentElement; }
+    const n = s => { const e = box && box.querySelector(`[aria-label*="${s}"]`); return e ? parseInt(e.getAttribute('aria-label')) || 0 : 0; };
+    if (n('conversation') > 0 || n('favoris') > 0) return 'SKIP conversation/favori (' + n('conversation') + '/' + n('favoris') + ')';
     const sb = [...card.querySelectorAll('button')].find(b => /Supprimer/.test(b.innerText)); if (!sb) return 'ERR bouton Supprimer';
     LBR.tclick(sb); await S(2000);
     let d = document.querySelector('[role=dialog]'); if (!d) return 'ERR pas de dialogue';
@@ -60,6 +64,7 @@ window.LBR = {
       if (!del) {
         const st = await LBR.status(oldId);
         del = (st === 410 || st === 404) ? 'OK deja hors ligne ' + st : await LBR.delOldFresh(oldId);
+        if (/^SKIP/.test(del)) { log.push({ oldId, newId, del, pub: null, at: new Date().toISOString() }); localStorage.setItem('__repostLog', JSON.stringify(log)); window.__repostState.res.push({ oldId, del }); continue; }
         if (!/^OK/.test(del)) { await LBR.S(8000); const st2 = await LBR.status(oldId); del = (st2 === 410 || st2 === 404) ? 'OK (2e essai) ' + st2 : await LBR.delOldFresh(oldId); }
       }
       const entry = { oldId, newId, del, pub: null, at: new Date().toISOString() };
