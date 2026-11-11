@@ -126,7 +126,7 @@ LBC.run = async (item) => {
     const chk = JSON.parse(b); if (chk.addr !== 'Toulouse (31000)' || !chk.livraison || String(chk.price) !== String(item.price)) throw 'ERR verif ' + b;
     const t = document.querySelector('input[type=text]').value; if (t !== item.title) throw 'ERR titre modifie: ' + t;
     await LBC.next();
-    const nb = await LBC.waitFor(() => LBC.byText('button', /Déposer sans booster/), 25000);
+    const nb = await LBC.waitFor(() => LBC.byText('button', /Déposer sans booster/), 60000);
     if (!nb) { const tx = document.body.innerText; const m = tx.match(/Vous utilisez[^\n]*|interdit[^\n]*|[^\n]*(obligatoire|invalide|non autorisé)[^\n]*/); throw 'ERR page options: ' + (m ? m[0] : tx.slice(0, 200)); }
     LBC.click(nb);
     const ok = await LBC.waitFor(() => /confirmation/.test(location.href), 25000);
