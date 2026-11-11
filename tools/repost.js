@@ -48,6 +48,7 @@ window.LBR = {
       if (!del) {
         const st = await LBR.status(oldId);
         del = (st === 410 || st === 404) ? 'OK deja hors ligne ' + st : await LBR.delOld(oldId);
+        if (!/^OK/.test(del)) { location.hash = ''; window.scrollTo(0, 0); await LBR.S(8000); const st2 = await LBR.status(oldId); del = (st2 === 410 || st2 === 404) ? 'OK (2e essai) ' + st2 : await LBR.delOld(oldId); }
       }
       const entry = { oldId, newId, del, pub: null, at: new Date().toISOString() };
       if (/^OK/.test(del)) {
