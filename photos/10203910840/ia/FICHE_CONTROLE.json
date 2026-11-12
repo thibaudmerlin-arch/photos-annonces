@@ -1,0 +1,27 @@
+{
+  "id_vinted": "10203910840",
+  "validation": "VALIDÉE",
+  "portee": "Contrôle visuel Work, pas validation Claude ni mesure physique",
+  "controle": "Homme,48IT déclaré,54cm aisselle/68cm longueur déclarés, étiquette taille non visible. Morphologie moyenne M/L compacte. Comparaison3sources: turquoise,bandes blanches,col matelassé,pressions,poches zippées,badge manche,élastiques. Trois-quarts avant car dos absent.",
+  "images": [
+    "IA_01_FACE.jpg",
+    "IA_02_AUTRE_ANGLE.jpg"
+  ],
+  "format": "JPEG1200x1500 redimensionné",
+  "drive": [
+    {
+      "name": "IA_01_FACE.jpg",
+      "file_id": "14EmEIPAYuBY6kc7rwx1ftQUdUZIqn_EE",
+      "url": "https://drive.google.com/file/d/14EmEIPAYuBY6kc7rwx1ftQUdUZIqn_EE/view?usp=drivesdk",
+      "verification": "Upload réussi et métadonnées relues; checksum non exposé"
+    },
+    {
+      "name": "IA_02_AUTRE_ANGLE.jpg",
+      "file_id": "1fcWwWkBrBcTWez0zIawLlIaYhRvnX-XS",
+      "url": "https://drive.google.com/file/d/1fcWwWkBrBcTWez0zIawLlIaYhRvnX-XS/view?usp=drivesdk",
+      "verification": "Upload réussi et métadonnées relues; checksum non exposé"
+    }
+  ],
+  "windows": "Non copié, Bureau inaccessible",
+  "date": "2026-11-12"
+}

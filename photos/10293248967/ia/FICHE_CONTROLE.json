@@ -1,0 +1,27 @@
+{
+  "id_vinted": "10293248967",
+  "validation": "VALIDÉE",
+  "portee": "Contrôle visuel Work, pas validation Claude ni mesure physique",
+  "controle": "Femme,34/XS déclaré fiche Vinted, étiquette taille non lisible. Silhouette mince, ajustée sans tension. Source unique et zoom: rayures roses/blanches,cuffs horizontaux,six boutons,pinces,bas arrondi,double petite plaque métallique. Trois-quarts avant, dos absent.",
+  "images": [
+    "IA_01_FACE.jpg",
+    "IA_02_AUTRE_ANGLE.jpg"
+  ],
+  "format": "JPEG1200x1500 redimensionné",
+  "drive": [
+    {
+      "name": "IA_01_FACE.jpg",
+      "file_id": "1KYidJQb7RY8KpzlXWRQf8JkntVCaLTvl",
+      "url": "https://drive.google.com/file/d/1KYidJQb7RY8KpzlXWRQf8JkntVCaLTvl/view?usp=drivesdk",
+      "verification": "Upload réussi et métadonnées relues; checksum non exposé"
+    },
+    {
+      "name": "IA_02_AUTRE_ANGLE.jpg",
+      "file_id": "1f-5x4yU-19FyNCDo2Z9Yd72aERRvoiML",
+      "url": "https://drive.google.com/file/d/1f-5x4yU-19FyNCDo2Z9Yd72aERRvoiML/view?usp=drivesdk",
+      "verification": "Upload réussi et métadonnées relues; checksum non exposé"
+    }
+  ],
+  "windows": "Non copié, Bureau inaccessible",
+  "date": "2026-11-12"
+}

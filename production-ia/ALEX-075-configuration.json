@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-12",
+  "automation_active": false,
+  "error": "too_many_active_automations",
+  "current_count": 5,
+  "plan_limit": 5,
+  "schedule": "08:30,11:30,14:30,17:30,20:30 Europe/Paris",
+  "lot_max": 3,
+  "images_max": 6,
+  "correction_max": 1,
+  "credits": "non mesurables; arrêt au premier refus quota puis REPORT_CRÉDIT",
+  "prompt": "Agis comme opérateur photo IA Déniche ta Fripe dans ce chat Work. Applique ALEX-075 dans thibaudmerlin-arch/denichetafripe-pilotage, echanges/alex-vers-claude.md, et consignes/production-photos-ia.md de thibaudmerlin-arch/photos-annonces. Mission PHOTO UNIQUEMENT : aucune recherche/modification Shopify, aucune action ni navigation Leboncoin, aucun prix modifié, aucune publication ou message acheteur.\nLis la file Claude preparation-quotidienne/YYYY-MM-DD/file-photos-ia.csv (date Europe/Paris), le manifest.csv, SUIVI_PRODUCTION_IA.csv et les FICHE_CONTROLE.json. Si file absente, utilise le manifeste Claude vérifié et conserve une file persistante sans écraser ses données. Reprends d'abord les envois manquants, puis au maximum 3 articles nécessitant une génération : priorité dossiers manuels du jour, nouveautés J+1, backlog préparé. Déduplique ID Vinted/photoId/repostOf et alias ba&sh10258831446→10750405052. Une paire déjà validée ne doit jamais être régénérée sans raison précise. Un manque de copie Windows/Drive n'est pas un défaut qualité.\nAvant chaque génération examine toutes les sources réelles, genre, taille/étiquettes/mesures, coupe, matière. Mannequin fictif adapté taille et genre, salon habituel identique. Deux photos verticales4:5 distinctes, face et autre angle justifié par sources. Fidélité détails/couleur/logos/défauts, pas d'invention. Utilise image_gen intégré avec références inspectées et contrôle visuel de chaque sortie. Maximum6 nouvelles images normales plus1 correction ciblée pour le lot; si non conforme, conserve brouillon séparé et À VÉRIFIER. Ne pas acheter de crédits ni passer à API payante. Vérifie quota seulement si compteur réellement exposé; sinon note non mesurable. Au premier refus quota/crédits, arrête les appels, journalise REPORT_CRÉDIT avec identifiants/étape/image éventuellement déjà réussie et reporte sans perdre les articles. Si outil image absent dans cette exécution, note BLOQUÉ_OUTIL_GENERATION et demande une reprise interactive, sans simuler une photo.\nEnregistre JPEG IA_01_FACE.jpg et IA_02_AUTRE_ANGLE.jpg dans photos/ID/ia/ du dépôt photos-annonces, et référence/copias dans dossier quotidien adéquat sans toucher originaux. Google Drive : dossier vérifié photo vinted id1-jceUg0R4D23uM9Z2EZkb0zk6os34oRP sous Déniche ta fripe–sauvegarde; cherche le dossier article existant avant créer ID - Article/PHOTOS_IA. Dossier annexe Drive Repost et nouveauté vinted id1XgimljKlu_1a-8kVUUGdnO6Kwn5uEU0y : conserver structure quotidienne existante et y livrer les copies nécessaires sans doublon.\nVérifie chaque fichier GitHub par relecture SHA et chaque Drive par métadonnées/checksum. Maintiens file persistante, FICHE_CONTROLE et suivi distinguant qualité, GitHub, Drive, Windows. Ne jamais déclarer copie Bureau si inaccessible. Conserve images générées déjà faites même si envoi échoue, marque EN ATTENTE D'ENVOI et reprends uniquement livraison. Utilise commits GitHub avec garde de version pour ne pas écraser travail Claude. Sources et sorties distantes font foi, stockage local transitoire peut disparaître.\nTransmets bilan factuel dans echanges/work-photos-2026-11-12.md ou journal Work daté du dépôt pilotage : examinés, paires générées, validées, envoyées GitHub/Drive, reportées, raisons et crédits si réellement mesurables. Pas de revendication de validation par Claude sans son contrôle. Ne marque pas PRÊT POUR THIBAUD pour un dossier incomplet. Si file vide, aucune génération inutile.\nPoint de reprise : lot manuel du12novembre doudoune10203910840, robe10750405052, chemise10293248967 généré; vérifier livraison avant toute génération. Ensuite jupe10358389960, ensemble10558493063, chapeau10542327630, manteau10581242100. Jupe sequins10269737733 et Kenzo10703291878 restent bloqués aux motifs documentés.",
+  "livraison": [
+    {
+      "id": "10203910840",
+      "name": "IA_01_FACE.jpg",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "14EmEIPAYuBY6kc7rwx1ftQUdUZIqn_EE",
+        "title": "IA_01_FACE.jpg",
+        "file_name": "IA_01_FACE.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://drive.google.com/file/d/14EmEIPAYuBY6kc7rwx1ftQUdUZIqn_EE/view?usp=drivesdk",
+        "parent_id": "1MLDpnlyiWBygQOczjn_kbrIVEB5B1tvk",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "14EmEIPAYuBY6kc7rwx1ftQUdUZIqn_EE",
+          "title": "IA_01_FACE.jpg",
+          "file_name": "IA_01_FACE.jpg",
+          "mime_type": "image/jpeg",
+          "url": "https://drive.google.com/file/d/14EmEIPAYuBY6kc7rwx1ftQUdUZIqn_EE/view?usp=drivesdk",
+          "parent_id": "1MLDpnlyiWBygQOczjn_kbrIVEB5B1tvk"
+        }
+      },
+      "expected_md5": "366ada73bc11be4dfbb8fd55c655e0ca"
+    },
+    {
+      "id": "10203910840",
+      "name": "IA_02_AUTRE_ANGLE.jpg",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1fcWwWkBrBcTWez0zIawLlIaYhRvnX-XS",
+        "title": "IA_02_AUTRE_ANGLE.jpg",
+        "file_name": "IA_02_AUTRE_ANGLE.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1fcWwWkBrBcTWez0zIawLlIaYhRvnX-XS/view?usp=drivesdk",
+        "parent_id": "1MLDpnlyiWBygQOczjn_kbrIVEB5B1tvk",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1fcWwWkBrBcTWez0zIawLlIaYhRvnX-XS",
+          "title": "IA_02_AUTRE_ANGLE.jpg",
+          "file_name": "IA_02_AUTRE_ANGLE.jpg",
+          "mime_type": "image/jpeg",
+          "url": "https://drive.google.com/file/d/1fcWwWkBrBcTWez0zIawLlIaYhRvnX-XS/view?usp=drivesdk",
+          "parent_id": "1MLDpnlyiWBygQOczjn_kbrIVEB5B1tvk"
+        }
+      },
+      "expected_md5": "fc743d4d83dbf480e045c3dc0d0a8daa"
+    },
+    {
+      "id": "10750405052",
+      "name": "IA_01_FACE.jpg",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1Ql2J-HEZUvxbqSPV07w63QrynfCj5mVN",
+        "title": "IA_01_FACE.jpg",
+        "file_name": "IA_01_FACE.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1Ql2J-HEZUvxbqSPV07w63QrynfCj5mVN/view?usp=drivesdk",
+        "parent_id": "1Gu5YMaz6MTNlIY_NpuM-klgKMS0vAPlb",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1Ql2J-HEZUvxbqSPV07w63QrynfCj5mVN",
+          "title": "IA_01_FACE.jpg",
+          "file_name": "IA_01_FACE.jpg",
+          "mime_type": "image/jpeg",
+          "url": "https://drive.google.com/file/d/1Ql2J-HEZUvxbqSPV07w63QrynfCj5mVN/view?usp=drivesdk",
+          "parent_id": "1Gu5YMaz6MTNlIY_NpuM-klgKMS0vAPlb"
+        }
+      },
+      "expected_md5": "56195c03d806a680f8b1334c17e09fe4"
+    },
+    {
+      "id": "10750405052",
+      "name": "IA_02_AUTRE_ANGLE.jpg",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1xiZ956MSyRmdAtUwnFgVFkTskxO_3yZN",
+        "title": "IA_02_AUTRE_ANGLE.jpg",
+        "file_name": "IA_02_AUTRE_ANGLE.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1xiZ956MSyRmdAtUwnFgVFkTskxO_3yZN/view?usp=drivesdk",
+        "parent_id": "1Gu5YMaz6MTNlIY_NpuM-klgKMS0vAPlb",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1xiZ956MSyRmdAtUwnFgVFkTskxO_3yZN",
+          "title": "IA_02_AUTRE_ANGLE.jpg",
+          "file_name": "IA_02_AUTRE_ANGLE.jpg",
+          "mime_type": "image/jpeg",
+          "url": "https://drive.google.com/file/d/1xiZ956MSyRmdAtUwnFgVFkTskxO_3yZN/view?usp=drivesdk",
+          "parent_id": "1Gu5YMaz6MTNlIY_NpuM-klgKMS0vAPlb"
+        }
+      },
+      "expected_md5": "55cda90ba65f170f16a8c79c1d8d9127"
+    },
+    {
+      "id": "10293248967",
+      "name": "IA_01_FACE.jpg",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1KYidJQb7RY8KpzlXWRQf8JkntVCaLTvl",
+        "title": "IA_01_FACE.jpg",
+        "file_name": "IA_01_FACE.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1KYidJQb7RY8KpzlXWRQf8JkntVCaLTvl/view?usp=drivesdk",
+        "parent_id": "1KlqCkwyn8zWRP0f1LIOmSqA6VClvp7Gj",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1KYidJQb7RY8KpzlXWRQf8JkntVCaLTvl",
+          "title": "IA_01_FACE.jpg",
+          "file_name": "IA_01_FACE.jpg",
+          "mime_type": "image/jpeg",
+          "url": "https://drive.google.com/file/d/1KYidJQb7RY8KpzlXWRQf8JkntVCaLTvl/view?usp=drivesdk",
+          "parent_id": "1KlqCkwyn8zWRP0f1LIOmSqA6VClvp7Gj"
+        }
+      },
+      "expected_md5": "3a88bcbce34bb743f5a3e69154d91081"
+    },
+    {
+      "id": "10293248967",
+      "name": "IA_02_AUTRE_ANGLE.jpg",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1f-5x4yU-19FyNCDo2Z9Yd72aERRvoiML",
+        "title": "IA_02_AUTRE_ANGLE.jpg",
+        "file_name": "IA_02_AUTRE_ANGLE.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1f-5x4yU-19FyNCDo2Z9Yd72aERRvoiML/view?usp=drivesdk",
+        "parent_id": "1KlqCkwyn8zWRP0f1LIOmSqA6VClvp7Gj",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1f-5x4yU-19FyNCDo2Z9Yd72aERRvoiML",
+          "title": "IA_02_AUTRE_ANGLE.jpg",
+          "file_name": "IA_02_AUTRE_ANGLE.jpg",
+          "mime_type": "image/jpeg",
+          "url": "https://drive.google.com/file/d/1f-5x4yU-19FyNCDo2Z9Yd72aERRvoiML/view?usp=drivesdk",
+          "parent_id": "1KlqCkwyn8zWRP0f1LIOmSqA6VClvp7Gj"
+        }
+      },
+      "expected_md5": "0cce9e756e9c3b60f553f1c2f535012d"
+    }
+  ],
+  "git_blobs": [
+    {
+      "path": "photos/10203910840/ia/IA_01_FACE.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8848c30b35dfd2c33be8c2d6184c696e0fad7dde"
+    },
+    {
+      "path": "photos/10203910840/ia/IA_02_AUTRE_ANGLE.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "869d7641c25f6998eaa1df797e5be2f1f75ea65d"
+    },
+    {
+      "path": "photos/10750405052/ia/IA_01_FACE.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "576d34fe3eb53868fd5c155c88dfe0afccc52821"
+    },
+    {
+      "path": "photos/10750405052/ia/IA_02_AUTRE_ANGLE.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa1eef47d7b25f2f3014f562e6cb31b4c79e3b1b"
+    },
+    {
+      "path": "photos/10293248967/ia/IA_01_FACE.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d52c7bdccba0bc8e26afbc0e92b90d900ca8f9a"
+    },
+    {
+      "path": "photos/10293248967/ia/IA_02_AUTRE_ANGLE.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b72766431fb32f948ea4497625a715ebb18f026"
+    }
+  ]
+}

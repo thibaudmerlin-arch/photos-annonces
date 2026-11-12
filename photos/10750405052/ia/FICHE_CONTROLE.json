@@ -1,0 +1,27 @@
+{
+  "id_vinted": "10750405052",
+  "validation": "VALIDÉE",
+  "portee": "Contrôle visuel Work, pas validation Claude ni mesure physique",
+  "controle": "Femme,0/XS34 étiquette lisible ancien ID10258831446, mesures photos actuelles. Mannequin mince petite, robe fluide. Comparaison4sources+2anciennes: vert canard,colV,fronces,volant unique,ourlet arrière arrondi plus long,zips poignets. Alias10258831446 à ne pas régénérer.",
+  "images": [
+    "IA_01_FACE.jpg",
+    "IA_02_AUTRE_ANGLE.jpg"
+  ],
+  "format": "JPEG1200x1500 redimensionné",
+  "drive": [
+    {
+      "name": "IA_01_FACE.jpg",
+      "file_id": "1Ql2J-HEZUvxbqSPV07w63QrynfCj5mVN",
+      "url": "https://drive.google.com/file/d/1Ql2J-HEZUvxbqSPV07w63QrynfCj5mVN/view?usp=drivesdk",
+      "verification": "Upload réussi et métadonnées relues; checksum non exposé"
+    },
+    {
+      "name": "IA_02_AUTRE_ANGLE.jpg",
+      "file_id": "1xiZ956MSyRmdAtUwnFgVFkTskxO_3yZN",
+      "url": "https://drive.google.com/file/d/1xiZ956MSyRmdAtUwnFgVFkTskxO_3yZN/view?usp=drivesdk",
+      "verification": "Upload réussi et métadonnées relues; checksum non exposé"
+    }
+  ],
+  "windows": "Non copié, Bureau inaccessible",
+  "date": "2026-11-12"
+}
