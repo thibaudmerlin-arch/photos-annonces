@@ -1,11 +1,11 @@
 ﻿ID_VINTED;ARTICLE;PHOTO_1;PHOTO_2;CONTROLE_QUALITE;GITHUB;STATUT;ERREUR
 10412700800;Manteau Champion homme – Taille S;photos/10412700800/ia/IA_01_FACE.jpg;photos/10412700800/ia/IA_02_AUTRE_ANGLE.jpg;VALIDÉE — contrôle visuel et cohérence fiche/mesures;OUI — 2 JPEG relus, empreintes vérifiées;IA_VALIDÉE_PAR_CLAUDE (validée aussi par Thibaud 12/11 12:32);Paire prête pour intégration après contrôle de stock par Claude. Copie Windows non réalisée.
-10269737733;Jupe à sequins léopard Rinascimento – Taille S;;;À VÉRIFIER;NON;BLOQUÉ;Troisième essai de face rejeté : disposition du motif non suffisamment fidèle. Aucun autre angle validé.
+10269737733;Jupe à sequins léopard Rinascimento – Taille S;photos/10269737733/ia/IA_01_FACE.jpg;photos/10269737733/ia/IA_02_AUTRE_ANGLE.jpg;À VÉRIFIER;NON;IA_VALIDÉE_PAR_CLAUDE (12/11 17:05, paire fournie par Thibaud ; jupe sequins léopard noir/or, zip côté conformes ; mannequin femme S);Troisième essai de face rejeté : disposition du motif non suffisamment fidèle. Aucun autre angle validé.
 10269053614;Veste en tweed Made in Italy – Taille M;photos/10269053614/ia/IA_01_FACE.jpg;photos/10269053614/ia/IA_02_AUTRE_ANGLE.jpg;VALIDÉE — contrôle visuel et cohérence fiche/mesures;OUI — 2 JPEG relus, empreintes vérifiées;IA_VALIDÉE_PAR_CLAUDE (validée aussi par Thibaud 12/11 12:32);Paire prête pour intégration après contrôle de stock par Claude. Copie Windows non réalisée.
 10673819897;Sweat Tommy Hilfiger x Gigi Hadid – Taille M;photos/10673819897/ia/IA_01_FACE.jpg;photos/10673819897/ia/IA_02_AUTRE_ANGLE.jpg;VALIDÉE — contrôle visuel et cohérence fiche/mesures;OUI — 2 JPEG relus, empreintes vérifiées;IA_VALIDÉE_PAR_CLAUDE (validée aussi par Thibaud 12/11 12:32);Paire prête pour intégration après contrôle de stock par Claude. Copie Windows non réalisée.
 10676736020;Pull col V Tommy Hilfiger – Taille M;photos/10676736020/ia/IA_01_FACE.jpg;photos/10676736020/ia/IA_02_AUTRE_ANGLE.jpg;VALIDÉE — contrôle visuel et cohérence fiche/mesures;OUI — 2 JPEG relus, empreintes vérifiées;IA_VALIDÉE_PAR_CLAUDE (validée aussi par Thibaud 12/11 12:32);Paire prête pour intégration après contrôle de stock par Claude. Copie Windows non réalisée.
 10498664401;Veste coupe-vent Champion – Taille M;photos/10498664401/ia/IA_01_FACE.jpg;photos/10498664401/ia/IA_02_AUTRE_ANGLE.jpg;VALIDÉE — contrôle visuel et cohérence fiche/mesures;OUI — 2 JPEG relus, empreintes vérifiées;IA_VALIDÉE_PAR_CLAUDE (validée aussi par Thibaud 12/11 12:32);Paire prête pour intégration après contrôle de stock par Claude. Copie Windows non réalisée.
-10703291878;Sweat Kenzo Tiger rouge – Taille XS – Mixte;;;À VÉRIFIER;NON;BLOQUÉ;Catégorie enfant incompatible avec présentation adulte sans vérification. Aucune génération
+10703291878;Sweat Kenzo Tiger rouge – Taille XS – Mixte;photos/10703291878/ia/IA_01_FACE.jpg;photos/10703291878/ia/IA_02_AUTRE_ANGLE.jpg;À VÉRIFIER;NON;IA_VALIDÉE_PAR_CLAUDE (12/11 17:05, paire fournie par Thibaud ; sweat Kenzo tigre rouge conforme ; mannequin femme (choix Thibaud, catégorie mixte));Catégorie enfant incompatible avec présentation adulte sans vérification. Aucune génération
 10269152003;Veste Tinsels – Maison française – Taille S;photos/10269152003/ia/IA_01_FACE.jpg;photos/10269152003/ia/IA_02_AUTRE_ANGLE.jpg;VALIDÉE — contrôle visuel et cohérence fiche/mesures;OUI — 2 JPEG relus, empreintes vérifiées;IA_VALIDÉE_PAR_CLAUDE (validée aussi par Thibaud 12/11 12:32);Paire prête pour intégration après contrôle de stock par Claude. Copie Windows non réalisée.
 10732535959;Polaire Nike XL – Col montant – Très bon état;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10732332531;Haut Desigual femme – Taille XS – Très bon état;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
@@ -51,13 +51,13 @@
 10581352017;Haut manches longues Y2K – Style années 2000 – Taille unique;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10581242100;Manteau en peau et fourrure – Taille M;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10411578405;Chemise vintage Jules à carreaux – Taille L;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
-10542327630;Chapeau noir en laine Pimkie – Taille 01 – Style bohème rock;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
+10542327630;Chapeau noir en laine Pimkie – Taille 01 – Style bohème rock;photos/10542327630/ia/IA_01_FACE.jpg;photos/10542327630/ia/IA_02_AUTRE_ANGLE.jpg;NON EXAMINÉ;NON;IA_VALIDÉE_PAR_CLAUDE (12/11 17:05, paire fournie par Thibaud ; fedora noir ruban étoiles/clous conforme ; mannequin femme);Disponibilité actuelle et étiquette à vérifier avant génération
 10542056700;Bottines léopard fourrées Forever Young – Taille 39;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10410942723;Pantalon évasé style années 2000 Y2K – Taille S;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10541992652;Cuissardes Zara brodées – Taille 39 – Style gothique chic;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10529941685;Doudoune sans manches IZOD – Taille S;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10558118716;Veste coupe-vent Tommy Hilfiger – Taille XS;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
-10558493063;Ensemble Ralph Lauren – Blazer & jupe – Taille 38;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
+10558493063;Ensemble Ralph Lauren – Blazer & jupe – Taille 38;photos/10558493063/ia/IA_01_FACE.jpg;photos/10558493063/ia/IA_02_AUTRE_ANGLE.jpg;NON EXAMINÉ;NON;IA_VALIDÉE_PAR_CLAUDE (12/11 17:05, paire fournie par Thibaud ; ensemble blazer + jupe volantée camel conformes ; mannequin femme 38);Disponibilité actuelle et étiquette à vérifier avant génération
 10541269748;Bottes bordeaux cloutées – Style gothique chic – Taille 40;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10541885962;Haut en velours noir Pimkie – Taille XS – Style gothique chic;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10412377202;Mini-jupe Zara kaki marron – Taille S;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
@@ -85,7 +85,7 @@
 10386842216;Veste vintage Morgan en velours côtelé rose – Taille S;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10386709539;Polo Lacoste L!VE manches longues – Taille S;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10358158135;Jupe courte kaki style vintage Y2K / Cargo – Taille 38;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
-10358389960;Jupe velours - Taille M;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
+10358389960;Jupe velours - Taille M;photos/10358389960/ia/IA_01_FACE.jpg;photos/10358389960/ia/IA_02_AUTRE_ANGLE.jpg;NON EXAMINÉ;NON;IA_VALIDÉE_PAR_CLAUDE (12/11 17:05, paire fournie par Thibaud ; jupe Naïf beige velours, fente, poches conformes ; mannequin femme M);Disponibilité actuelle et étiquette à vérifier avant génération
 10388217095;Jean Levi’s – Taille XS (W25);;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10389070165;Veste Under Armour – Taille M – Très bon état;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10387441232;Jupe vintage en velours côtelé vert foncé – Taille 32;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
@@ -169,3 +169,6 @@
 10749516707;Veste bomber brodée ZARA femme – Taille S;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10732315973;Polaire Lands’ End – Taille L – Très bon état;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
 10358069794;Robe noire à volants – Style gothique romantique / Bohème – Taille S/M;;;NON EXAMINÉ;NON;À FAIRE;Disponibilité actuelle et étiquette à vérifier avant génération
+
+10777483965;;photos/10777483965/ia/IA_01_FACE.jpg;photos/10777483965/ia/IA_02_AUTRE_ANGLE.jpg;VALIDÉE;OUI;IA_VALIDÉE_PAR_CLAUDE (12/11 17:05, paire fournie par Thibaud ; polaire noire HH + Acciona, zip, étiquette Polartec conformes ; mannequin homme M);
+10776981859;;photos/10776981859/ia/IA_01_FACE.jpg;photos/10776981859/ia/IA_02_AUTRE_ANGLE.jpg;VALIDÉE;OUI;IA_VALIDÉE_PAR_CLAUDE (12/11 17:05, paire fournie par Thibaud ; polaire NB anthracite/gris, capuche, zips poches conformes ; mannequin femme M);
