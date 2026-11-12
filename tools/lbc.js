@@ -40,13 +40,16 @@ window.LBC = {
     const inp = await LBC.waitFor(() => document.querySelector('input[type=file]'));
     if (!inp) return 'ERR input photo';
     const dt = new DataTransfer();
-    for (let k = 1; k <= item.n; k++) {
-      const r = await fetch(`https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/main/photos/${item.photoId || item.id}/${k}.jpg`);
-      if (!r.ok) return 'ERR photo ' + k + ' HTTP ' + r.status;
-      dt.items.add(new File([await r.blob()], `photo-${k}.jpg`, { type: 'image/jpeg' }));
+    // ordre : item.photoPaths si fourni (ex. IA_01_FACE, IA_02_AUTRE_ANGLE puis originaux 1..n), sinon originaux 1..n
+    const base = 'https://raw.githubusercontent.com/thibaudmerlin-arch/photos-annonces/main/photos/';
+    const paths = item.photoPaths || Array.from({ length: item.n }, (_, i) => `${item.photoId || item.id}/${i + 1}.jpg`);
+    for (let k = 0; k < paths.length; k++) {
+      const r = await fetch(base + paths[k]);
+      if (!r.ok) return 'ERR photo ' + paths[k] + ' HTTP ' + r.status;
+      dt.items.add(new File([await r.blob()], `photo-${k + 1}.jpg`, { type: 'image/jpeg' }));
     }
     inp.files = dt.files; inp.dispatchEvent(new Event('change', { bubbles: true }));
-    const ok = await LBC.waitFor(() => new RegExp(`photo n° ${item.n} a bien été ajoutée`).test(document.body.innerText), 40000);
+    const ok = await LBC.waitFor(() => new RegExp(`photo n° ${paths.length} a bien été ajoutée`).test(document.body.innerText), 60000);
     if (!ok) return 'ERR upload photos';
     await LBC.sleep(4000); // laisse leboncoin pré-remplir les attributs
     return 'OK ' + catLabel;
