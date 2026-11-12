@@ -6,10 +6,11 @@ prix = prix_NE_PAS_PUBLIER.jpg ; Très bon état ; Toulouse 31000 ; main propre 
 Nouveautés : nouvelle annonce directement.
 M'envoyer les numéros des nouvelles annonces.
 
-=== AVEC PHOTOS IA (1) ===
+=== AVEC PHOTOS IA (2) ===
 - Veste à capuche Champion C9 grise et rouge doublée polaire – Femme L — 20 € — Vinted 10733834275 — ancienne annonce 3306232933
+- Manteau en peau – Taille M – Très bon état — 60 € — Vinted 10778951192
 
-=== PHOTOS IA EN ATTENTE (20) — voir RELAIS_MANUEL_THIBAUD.md ===
+=== PHOTOS IA EN ATTENTE (18) — voir RELAIS_MANUEL_THIBAUD.md ===
 - Polaire Lands' End homme bleu marine et turquoise – Taille XL — 18 € — Vinted 10732138287 — ancienne annonce 3306238938
 - Blouson moto Bering bleu ciel à bandes noires – Femme taille 4 — 89 € — Vinted 10345823930 — ancienne annonce 3305937571
 - Coupe-vent Nike noir à capuche cintré – Femme S — 35 € — Vinted 10733737751 — ancienne annonce 3306234649
@@ -25,8 +26,10 @@ M'envoyer les numéros des nouvelles annonces.
 - Pull Tiffosi grosse maille torsadée marron et noir – Femme XS — 12 € — Vinted 10732992731 — ancienne annonce 3306074810
 - Haut manches longues imprimé effet superposé fabriqué en France – Taille M — 12 € — Vinted 10582171202 — ancienne annonce 3305661668
 - Pantalon large fluide Pimkie vert d’eau – Taille S — 12 € — Vinted 10558042326 — ancienne annonce 3305655146
-- Polaire Fila homme – Taille S – Très bon état — 25 € — Vinted 10777287570
-- Polaire Calvin Klein Performance femme – Taille M – Très bon état — 20 € — Vinted 10777381603
 - Ensemble de fête ZARA femme – Taille S – Noir pailleté — 35 € — Vinted 10749755691
 - Polaire sans manches Eddie Bauer femme – Taille XL – Très bon état — 15 € — Vinted 10777052212
 - Polaire à capuche Calvin Klein Jeans – Homme – Taille M — 22 € — Vinted 10777950835
+
+=== BLOQUÉS — NE PAS PUBLIER (2) ===
+- Polaire Fila homme – Taille S – Très bon état — Vinted 10777287570 — BLOQUÉ — absent de Vinted depuis 20:20 (vendu ou retiré ?)
+- Polaire Calvin Klein Performance femme – Taille M – Très bon état — Vinted 10777381603 — BLOQUÉ — absent de Vinted au relevé 22:00 (vendu ou retiré ?)

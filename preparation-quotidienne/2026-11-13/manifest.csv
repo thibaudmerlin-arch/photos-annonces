@@ -15,8 +15,9 @@ rang;type;id_vinted;id_lbc_ancien;titre;prix_vinted;prix_lbc_actuel;nb_originale
 14;REPOST;10732992731;3306074810;Pull Tiffosi grosse maille torsadée marron et noir – Femme XS;12;12;4;0;IA_A_GÉNÉRER (Work / relais Thibaud);IA MANQUANTE
 15;REPOST;10582171202;3305661668;Haut manches longues imprimé effet superposé fabriqué en France – Taille M;12;12;4;0;IA_A_GÉNÉRER (Work / relais Thibaud);IA MANQUANTE
 16;REPOST;10558042326;3305655146;Pantalon large fluide Pimkie vert d’eau – Taille S;12;12;1;0;IA_A_GÉNÉRER (Work / relais Thibaud);IA MANQUANTE
-N1;NOUVEAUTÉ;10777287570;;Polaire Fila homme – Taille S – Très bon état;25;;5;0;IA_A_GÉNÉRER (Work / relais Thibaud);IA MANQUANTE
-N2;NOUVEAUTÉ;10777381603;;Polaire Calvin Klein Performance femme – Taille M – Très bon état;20;;5;0;IA_A_GÉNÉRER (Work / relais Thibaud);IA MANQUANTE
+N1;NOUVEAUTÉ;10777287570;;Polaire Fila homme – Taille S – Très bon état;25;;5;0;IA_A_GÉNÉRER (Work / relais Thibaud);BLOQUÉ — absent de Vinted depuis 20:20 (vendu ou retiré ?)
+N2;NOUVEAUTÉ;10777381603;;Polaire Calvin Klein Performance femme – Taille M – Très bon état;20;;5;0;IA_A_GÉNÉRER (Work / relais Thibaud);BLOQUÉ — absent de Vinted au relevé 22:00 (vendu ou retiré ?)
 N3;NOUVEAUTÉ;10749755691;;Ensemble de fête ZARA femme – Taille S – Noir pailleté;35;;6;0;IA_A_GÉNÉRER (Work / relais Thibaud);IA MANQUANTE
 N4;NOUVEAUTÉ;10777052212;;Polaire sans manches Eddie Bauer femme – Taille XL – Très bon état;15;;4;0;IA_A_GÉNÉRER (Work / relais Thibaud);IA MANQUANTE
 N5;NOUVEAUTÉ;10777950835;;Polaire à capuche Calvin Klein Jeans – Homme – Taille M;22;;5;0;IA_A_GÉNÉRER (Work / relais Thibaud);IA MANQUANTE
+N6;NOUVEAUTÉ;10778951192;;Manteau en peau – Taille M – Très bon état;60;;5;2;IA_VALIDÉE;PRÊT
