@@ -22,3 +22,6 @@ Mettre à jour SUIVI_PRODUCTION_IA.csv après copie Windows vérifiée. Ne pas m
 L'environnement Linux a été temporairement déconnecté pendant le transfert puis rétabli. Les transferts ont repris ; les fichiers durables du lot sont ceux enregistrés dans ce commit.
 Le PC Windows n'est pas monté dans cette session. Le suivi demandé n'a donc pas été créé sur le Bureau Windows.
 La mission catalogue est incomplète. Aucune exécution en arrière-plan n'est affirmée.
+
+## Vérification GitHub après envoi
+Les 12 JPEG des 6 paires ont été relus via la connexion GitHub depuis le commit 7f270489682eeeb40ea1fbbdf80849dd2a775edf. Leur signature JPEG et leur SHA correspondent aux fichiers envoyés. Enregistrement GitHub confirmé pour 6 articles ; cela ne vaut pas validation commerciale des 5 paires À VÉRIFIER.
