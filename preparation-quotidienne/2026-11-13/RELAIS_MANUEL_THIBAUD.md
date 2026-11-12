@@ -24,3 +24,4 @@ Mannequin selon le genre et la taille, décor adapté au style (consignes ALEX-0
 | N2 | 10777381603 | Polaire Calvin Klein Performance femme – Taille M – Très bon état | 20 € | 5 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10777381603)) | 2 | femme M, sport/urbain |
 | N3 | 10749755691 | Ensemble de fête ZARA femme – Taille S – Noir pailleté | 35 € | 6 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10749755691)) | 2 | femme S, soirée de fête chic |
 | N4 | 10777052212 | Polaire sans manches Eddie Bauer femme – Taille XL – Très bon état | 15 € | 4 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10777052212)) | 2 | femme XL, balade extérieur nature |
+| N5 | 10777950835 | Polaire à capuche Calvin Klein Jeans – Homme – Taille M | 22 € | 5 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10777950835)) | 2 | homme M, urbain décontracté |
