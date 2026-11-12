@@ -10,9 +10,9 @@ PRIX ACTUEL (inchangé) : 30 €
 LOCALISATION : Toulouse 31000
 OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-12
-STATUT IMAGES : originales 4 ; IA EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)
+STATUT IMAGES : originales 4 ; IA IA_VALIDÉE_PAR_CLAUDE 12/11 (contrôle visuel vs originaux, détail dans SUIVI_PRODUCTION_IA.csv)
 CRÉNEAU ALEX : 18:35
-STATUT LEBONCOIN : BLOQUÉ — ACCÈS LBC RESTREINT (ALEX-070), aucune action tant que non levé
+PUBLICATION : manuelle par Thibaud (ALEX-074)
 
 === TITRE PRÊT À PUBLIER ===
 Robe ba&sh vert canard manches longues – Taille XS (0)
@@ -25,3 +25,5 @@ Magnifique robe ba&sh, taille 0 (équivalent XS/34), en très bon état. Couleur
 📏 Mesures disponibles en photos.
 
 📍 Remise en main propre possible à Toulouse (31000) ou envoi par livraison.
+
+📸 Photos 1 et 2 : visuels portés générés par IA (illustration du vêtement). Photos suivantes : l'article réel.

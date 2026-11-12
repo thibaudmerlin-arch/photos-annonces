@@ -12,7 +12,7 @@ OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-12
 STATUT IMAGES : originales 5 ; IA EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)
 CRÉNEAU ALEX : 20:15
-STATUT LEBONCOIN : BLOQUÉ — ACCÈS LBC RESTREINT (ALEX-070), aucune action tant que non levé
+PUBLICATION : manuelle par Thibaud (ALEX-074)
 
 === TITRE PRÊT À PUBLIER ===
 Chapeau fedora Pimkie noir 100 % laine – Taille 01

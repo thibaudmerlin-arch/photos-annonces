@@ -10,9 +10,9 @@ PRIX ACTUEL (inchangé) : 5 €
 LOCALISATION : Toulouse 31000
 OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-12
-STATUT IMAGES : originales 2 ; IA IA_VALIDÉE_PAR_CLAUDE 12/11 13:05 (contrôle visuel vs 1.jpg/2.jpg conforme)
+STATUT IMAGES : originales 2 ; IA IA_VALIDÉE_PAR_CLAUDE 12/11 (contrôle visuel vs originaux, détail dans SUIVI_PRODUCTION_IA.csv)
 CRÉNEAU ALEX : 18:35
-STATUT LEBONCOIN : BLOQUÉ — ACCÈS LBC RESTREINT (ALEX-070), aucune action tant que non levé
+PUBLICATION : manuelle par Thibaud (ALEX-074)
 
 === TITRE PRÊT À PUBLIER ===
 Pantalon H&M rose fuchsia femme – Taille 36

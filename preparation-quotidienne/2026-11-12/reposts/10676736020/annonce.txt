@@ -12,7 +12,7 @@ OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-12
 STATUT IMAGES : originales 4 ; IA IA_VALIDÉE_PAR_CLAUDE (+ Thibaud 12/11 12:32)
 CRÉNEAU ALEX : 12:15 → reporté
-STATUT LEBONCOIN : BLOQUÉ — ACCÈS LBC RESTREINT (ALEX-070), aucune action tant que non levé
+PUBLICATION : manuelle par Thibaud (ALEX-074)
 
 === TITRE PRÊT À PUBLIER ===
 Pull col V Tommy Hilfiger bleu marine coton Pima – Taille M

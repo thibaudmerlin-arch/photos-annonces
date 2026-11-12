@@ -6,13 +6,13 @@ MARQUE : Vintage (duvet d’oie)
 CATÉGORIE : Doudoune homme (Hommes>Vêtements)
 TAILLE : 48 IT (M/L)
 ÉTAT : Très bon état
-PRIX ACTUEL (inchangé) : 69 €  ⚠ PRIX_A_VERIFIER (leboncoin 69 € / Vinted 69.9 €) — prix.jpg non créé
+PRIX ACTUEL (inchangé) : 69,90 €
 LOCALISATION : Toulouse 31000
 OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-12
-STATUT IMAGES : originales 3 ; IA EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)
+STATUT IMAGES : originales 3 ; IA IA_VALIDÉE_PAR_CLAUDE 12/11 (contrôle visuel vs originaux, détail dans SUIVI_PRODUCTION_IA.csv)
 CRÉNEAU ALEX : 18:35
-STATUT LEBONCOIN : BLOQUÉ — ACCÈS LBC RESTREINT (ALEX-070), aucune action tant que non levé
+PUBLICATION : manuelle par Thibaud (ALEX-074)
 
 === TITRE PRÊT À PUBLIER ===
 Doudoune de ski vintage turquoise et blanche duvet d’oie – 48 IT
@@ -42,3 +42,5 @@ Très bon état vintage, avec les légères marques normales liées à l’âge 
 Parfait pour un look ski rétro, vintage ou streetwear.
 
 📍 Remise en main propre possible à Toulouse (31000) ou envoi par livraison.
+
+📸 Photos 1 et 2 : visuels portés générés par IA (illustration du vêtement). Photos suivantes : l'article réel.
