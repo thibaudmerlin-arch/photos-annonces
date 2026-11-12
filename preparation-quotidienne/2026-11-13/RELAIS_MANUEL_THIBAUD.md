@@ -5,7 +5,6 @@ Mannequin selon le genre et la taille, décor adapté au style (consignes ALEX-0
 
 | # | ID Vinted | Article | Prix | Originaux | IA manquantes | Mannequin / décor conseillé |
 |---|---|---|---|---|---|---|
-| 1 | 10733834275 | Veste à capuche Champion C9 grise et rouge doublée polaire – Femme L | 20 € | 4 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10733834275)) | 2 | femme L, extérieur sport/urbain |
 | 2 | 10732138287 | Polaire Lands' End homme bleu marine et turquoise – Taille XL | 18 € | 5 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10732138287)) | 2 | homme XL, extérieur nature |
 | 3 | 10345823930 | Blouson moto Bering bleu ciel à bandes noires – Femme taille 4 | 89 € | 3 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10345823930)) | 2 | femme, rue urbaine (style moto) |
 | 4 | 10733737751 | Coupe-vent Nike noir à capuche cintré – Femme S | 35 € | 2 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10733737751)) | 2 | femme S, urbain mi-saison |
@@ -23,3 +22,5 @@ Mannequin selon le genre et la taille, décor adapté au style (consignes ALEX-0
 | 16 | 10558042326 | Pantalon large fluide Pimkie vert d’eau – Taille S | 12 € | 1 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10558042326)) | 2 | femme S, estival décontracté |
 | N1 | 10777287570 | Polaire Fila homme – Taille S – Très bon état | 25 € | 5 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10777287570)) | 2 | homme S, street/extérieur |
 | N2 | 10777381603 | Polaire Calvin Klein Performance femme – Taille M – Très bon état | 20 € | 5 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10777381603)) | 2 | femme M, sport/urbain |
+| N3 | 10749755691 | Ensemble de fête ZARA femme – Taille S – Noir pailleté | 35 € | 6 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10749755691)) | 2 | femme S, soirée de fête chic |
+| N4 | 10777052212 | Polaire sans manches Eddie Bauer femme – Taille XL – Très bon état | 15 € | 4 ([GitHub](https://github.com/thibaudmerlin-arch/photos-annonces/tree/main/photos/10777052212)) | 2 | femme XL, balade extérieur nature |

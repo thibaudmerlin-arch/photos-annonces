@@ -10,7 +10,7 @@ PRIX (= Vinted) : 20 €
 LOCALISATION : Toulouse 31000
 OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-12 (pour publication 13/11)
-STATUT IMAGES : originales 4 ; IA IA_A_GÉNÉRER (Work / relais Thibaud)
+STATUT IMAGES : originales 4 ; IA IA_VALIDÉE
 PUBLICATION : manuelle par Thibaud — supprimer d'abord l'ancienne annonce 3306232933 (motif « Autre »), sauf si un acheteur a écrit dans les 5 derniers jours
 
 === TITRE PRÊT À PUBLIER ===
@@ -31,3 +31,5 @@ Jolie veste sportive Champion C9 pour femme, taille L, coloris gris anthracite a
 Très bon état !
 
 📍 Remise en main propre possible à Toulouse (31000) ou envoi par livraison.
+
+📸 Photos 1 et 2 : visuels portés générés par IA (illustration du vêtement). Photos suivantes : l'article réel.
