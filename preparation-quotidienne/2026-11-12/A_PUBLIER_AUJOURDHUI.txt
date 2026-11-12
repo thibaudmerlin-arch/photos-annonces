@@ -8,22 +8,22 @@ Pour chaque article (dossier numéroté) :
 4) Prix = prix (ne pas le mettre en photo). État Très bon état, Toulouse 31000, main propre + livraison, sans boost.
 5) M'envoyer le numéro de la nouvelle annonce.
 
-=== PRÊTS (10) ===
+=== PRÊTS (14) ===
 1. Manteau Champion kaki à capuche doublée – Homme S — 35 € — ancienne annonce 3305819110 (Vinted 10412700800)
-2. Veste tweed bouclé écru rouge noir boutons dorés – Made in Italy M — 29 € — ancienne annonce 3305872003 (Vinted 10269053614)
-3. Sweat Tommy Hilfiger x Gigi Hadid bleu marine ancre brodée – M — 28 € — ancienne annonce 3305639388 (Vinted 10673819897)
-4. Pull col V Tommy Hilfiger bleu marine coton Pima – Taille M — 25 € — ancienne annonce 3305613441 (Vinted 10676736020)
-5. Coupe-vent Champion noir léger – Taille M — 25 € — ancienne annonce 3305696731 (Vinted 10498664401)
-6. Veste blazer Tinsels bleu marine et écru – Femme S — 50 € — ancienne annonce 3305876657 (Vinted 10269152003)
-7. Pantalon H&M rose fuchsia femme – Taille 36 — 5 € — ancienne annonce 3305914827 (Vinted 9953486817)
-8. Doudoune de ski vintage turquoise et blanche duvet d’oie – 48 IT — 69,90 € — ancienne annonce 3305891781 (Vinted 10203910840)
-9. Robe ba&sh vert canard manches longues – Taille XS (0) — 30 € — ancienne annonce 3305883025 (Vinted 10750405052)
-10. Chemise Tommy Hilfiger femme rayée rose et blanc – Taille XS (34) — 22 € — ancienne annonce 3305862438 (Vinted 10293248967)
+2. Jupe Rinascimento à sequins léopard noir et or – Taille S — 35 € — ancienne annonce 3305874975 (Vinted 10269737733)
+3. Veste tweed bouclé écru rouge noir boutons dorés – Made in Italy M — 29 € — ancienne annonce 3305872003 (Vinted 10269053614)
+4. Sweat Tommy Hilfiger x Gigi Hadid bleu marine ancre brodée – M — 28 € — ancienne annonce 3305639388 (Vinted 10673819897)
+5. Pull col V Tommy Hilfiger bleu marine coton Pima – Taille M — 25 € — ancienne annonce 3305613441 (Vinted 10676736020)
+6. Coupe-vent Champion noir léger – Taille M — 25 € — ancienne annonce 3305696731 (Vinted 10498664401)
+7. Veste blazer Tinsels bleu marine et écru – Femme S — 50 € — ancienne annonce 3305876657 (Vinted 10269152003)
+8. Pantalon H&M rose fuchsia femme – Taille 36 — 5 € — ancienne annonce 3305914827 (Vinted 9953486817)
+9. Doudoune de ski vintage turquoise et blanche duvet d’oie – 48 IT — 69,90 € — ancienne annonce 3305891781 (Vinted 10203910840)
+10. Robe ba&sh vert canard manches longues – Taille XS (0) — 30 € — ancienne annonce 3305883025 (Vinted 10750405052)
+11. Chemise Tommy Hilfiger femme rayée rose et blanc – Taille XS (34) — 22 € — ancienne annonce 3305862438 (Vinted 10293248967)
+12. Jupe longue Naïf velours côtelé beige – Taille M neuve — 22 € — ancienne annonce 3305827735 (Vinted 10358389960)
+13. Ensemble Ralph Lauren blazer et jupe beige camel – Taille 38 — 90 € — ancienne annonce 3305677382 (Vinted 10558493063)
+14. Chapeau fedora Pimkie noir 100 % laine – Taille 01 — 15 € — ancienne annonce 3305669772 (Vinted 10542327630)
 
-=== EN ATTENTE (6) — ne pas publier ===
-- Jupe Rinascimento à sequins léopard noir et or – Taille S (Vinted 10269737733) — EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)
+=== EN ATTENTE (2) — ne pas publier ===
 - Sweat Kenzo rouge tigre brodé – XS mixte (Vinted 10703291878) — BLOQUÉ — catégorie Enfant/mixte non résolue, pas de paire IA
-- Jupe longue Naïf velours côtelé beige – Taille M neuve (Vinted 10358389960) — EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)
-- Ensemble Ralph Lauren blazer et jupe beige camel – Taille 38 (Vinted 10558493063) — EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)
-- Chapeau fedora Pimkie noir 100 % laine – Taille 01 (Vinted 10542327630) — EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)
 - Manteau long en peau marron camel doublé fourrure – Taille M (Vinted 10581242100) — EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)

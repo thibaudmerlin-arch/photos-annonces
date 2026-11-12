@@ -10,7 +10,7 @@ PRIX ACTUEL (inchangé) : 35 €
 LOCALISATION : Toulouse 31000
 OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-12
-STATUT IMAGES : originales 2 ; IA EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)
+STATUT IMAGES : originales 2 ; IA IA_VALIDÉE_PAR_CLAUDE (+ Thibaud 12/11 12:32)
 CRÉNEAU ALEX : 18:35
 PUBLICATION : manuelle par Thibaud (ALEX-074)
 
@@ -29,3 +29,5 @@ Coupe courte légèrement évasée, entièrement recouverte de sequins pour un j
 🖤 Sequins noirs, dorés et argentés
 
 Une jupe originale et élégante, parfaite pour une soirée, les fêtes ou avec un haut noir et des bottines pour un look plus chic.
+
+📸 Photos 1 et 2 : visuels portés générés par IA (illustration du vêtement). Photos suivantes : l'article réel.

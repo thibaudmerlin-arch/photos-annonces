@@ -10,7 +10,7 @@ PRIX ACTUEL (inchangé) : 90 €
 LOCALISATION : Toulouse 31000
 OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-12
-STATUT IMAGES : originales 9 ; IA EN_ATTENTE_LIVRAISON_IA (aucune image IA sur GitHub)
+STATUT IMAGES : originales 9 ; IA IA_VALIDÉE_PAR_CLAUDE 12/11 (contrôle visuel vs originaux, détail dans SUIVI_PRODUCTION_IA.csv)
 CRÉNEAU ALEX : 20:15
 PUBLICATION : manuelle par Thibaud (ALEX-074)
 
@@ -33,3 +33,5 @@ Ensemble élégant, chic et intemporel, idéal pour un look vintage ou une tenue
 📸 Mesures disponibles sur les photos.
 
 📍 Remise en main propre possible à Toulouse (31000) ou envoi par livraison.
+
+📸 Photos 1 et 2 : visuels portés générés par IA (illustration du vêtement). Photos suivantes : l'article réel.
