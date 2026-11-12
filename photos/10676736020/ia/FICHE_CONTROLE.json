@@ -3,11 +3,12 @@
   "date": "2026-11-12",
   "genre": "Homme",
   "taille_annoncee": "M",
-  "preuve": "Fiche Vinted et mesures photographiées, taille imprimée trop petite pour certitude",
-  "morphologie": "Mince à moyenne",
-  "validation": "À VÉRIFIER — NE PAS PUBLIER",
-  "commentaire": "Confirmer taille et adéquation morphologie aux mesures environ 49 cm de largeur et 57 cm longueur. Dos corrigé après couture triangulaire inventée",
+  "preuve": "Homme M selon CLAUDE-040 et Shopify. Mesures photographiées environ 49 cm largeur et 57 cm longueur ; morphologie mince à moyenne cohérente. Marquage intérieur examiné agrandi mais taille non lisible avec certitude. Dos corrigé sans triangle inventé.",
+  "morphologie": "Homme mince à moyen adapté aux proportions",
+  "validation": "VALIDÉE",
+  "commentaire": "Contrôle visuel accepté. Les tailles non lisibles sont explicitement sourcées à la fiche Vinted transmise et au catalogue, sans prétendre les avoir lues sur étiquette.",
   "copie_pc_windows": "NON RÉALISÉE",
   "generation": "outil image intégré",
-  "sources": "photographies originales inchangées dans le dossier parent"
+  "sources": "photographies originales inchangées dans le dossier parent",
+  "version": "Paire initiale contrôlée à nouveau"
 }

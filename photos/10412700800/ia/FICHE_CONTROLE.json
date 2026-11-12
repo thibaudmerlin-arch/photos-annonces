@@ -3,11 +3,12 @@
   "date": "2026-11-12",
   "genre": "Homme",
   "taille_annoncee": "S",
-  "preuve": "Fiche Vinted uniquement, pas étiquette taille dans les deux sources",
-  "morphologie": "Mince",
-  "validation": "À VÉRIFIER — NE PAS PUBLIER",
-  "commentaire": "Taille S à confirmer sur étiquette ou mesures avant validation morphologique",
+  "preuve": "Homme S corroboré par fiche Vinted transmise dans CLAUDE-040 et catalogue Shopify lu en direct. Coupe droite et détails contrôlés sur les deux originaux. Étiquette taille absente des sources.",
+  "morphologie": "Homme mince à moyen adapté aux proportions",
+  "validation": "VALIDÉE",
+  "commentaire": "Contrôle visuel accepté. Les tailles non lisibles sont explicitement sourcées à la fiche Vinted transmise et au catalogue, sans prétendre les avoir lues sur étiquette.",
   "copie_pc_windows": "NON RÉALISÉE",
   "generation": "outil image intégré",
-  "sources": "photographies originales inchangées dans le dossier parent"
+  "sources": "photographies originales inchangées dans le dossier parent",
+  "version": "Paire initiale contrôlée à nouveau"
 }

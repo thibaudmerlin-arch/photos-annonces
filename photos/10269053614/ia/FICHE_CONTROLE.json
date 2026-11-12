@@ -3,11 +3,12 @@
   "date": "2026-11-12",
   "genre": "Femme",
   "taille_annoncee": "M",
-  "preuve": "Fiche Vinted, étiquette Made in Italy mais taille non lisible",
-  "morphologie": "Moyenne demandée mais rendu mince",
-  "validation": "À VÉRIFIER — NE PAS PUBLIER",
-  "commentaire": "Morphologie trop proche du mannequin S et taille M non corroborée. Régénérer avec morphologie adaptée après vérification",
+  "preuve": "Femme M/38 corroboré par CLAUDE-040 et catalogue Shopify. Nouvelle mannequin morphologie moyenne ; trois boutons, deux poches et coupe courte contrôlés. Étiquette de taille non lisible.",
+  "morphologie": "Femme moyenne M/38",
+  "validation": "VALIDÉE",
+  "commentaire": "Contrôle visuel accepté. Les tailles non lisibles sont explicitement sourcées à la fiche Vinted transmise et au catalogue, sans prétendre les avoir lues sur étiquette.",
   "copie_pc_windows": "NON RÉALISÉE",
   "generation": "outil image intégré",
-  "sources": "photographies originales inchangées dans le dossier parent"
+  "sources": "photographies originales inchangées dans le dossier parent",
+  "version": "Correction morphologie du 12 novembre"
 }

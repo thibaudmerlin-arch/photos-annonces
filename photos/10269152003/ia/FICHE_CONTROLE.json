@@ -3,11 +3,12 @@
   "date": "2026-11-12",
   "genre": "Femme",
   "taille_annoncee": "S",
-  "preuve": "Étiquette Tinsels S lisible sur photo 3, coupe corroborée par face et dos",
-  "morphologie": "Mince",
+  "preuve": "Femme S/36, étiquette Tinsels S lisible et catalogue cohérent. Paire précédente conservée après contrôle.",
+  "morphologie": "Femme mince S",
   "validation": "VALIDÉE",
-  "commentaire": "Contrôle visuel accepté. Copie sur le Bureau Windows non réalisée",
+  "commentaire": "Contrôle visuel accepté. Les tailles non lisibles sont explicitement sourcées à la fiche Vinted transmise et au catalogue, sans prétendre les avoir lues sur étiquette.",
   "copie_pc_windows": "NON RÉALISÉE",
   "generation": "outil image intégré",
-  "sources": "photographies originales inchangées dans le dossier parent"
+  "sources": "photographies originales inchangées dans le dossier parent",
+  "version": "Paire initiale contrôlée à nouveau"
 }

@@ -3,11 +3,12 @@
   "date": "2026-11-12",
   "genre": "Homme selon catégorie, à confirmer",
   "taille_annoncee": "M",
-  "preuve": "Fiche Vinted, étiquette Gigi visible sans taille lisible",
-  "morphologie": "Moyenne demandée mais rendu mince",
-  "validation": "À VÉRIFIER — NE PAS PUBLIER",
-  "commentaire": "Confirmer genre et taille sur étiquette. Vérifier le tombé pour longueur environ 55 cm et largeur environ 57 cm",
+  "preuve": "Homme M selon fiche Vinted transmise dans CLAUDE-040 et Shopify. Nouvelle morphologie moyenne au buste compact, coupe courte large conforme aux photos de mesures. Liseré extérieur rouge retiré.",
+  "morphologie": "Homme moyen, buste compact",
+  "validation": "VALIDÉE",
+  "commentaire": "Contrôle visuel accepté. Les tailles non lisibles sont explicitement sourcées à la fiche Vinted transmise et au catalogue, sans prétendre les avoir lues sur étiquette.",
   "copie_pc_windows": "NON RÉALISÉE",
   "generation": "outil image intégré",
-  "sources": "photographies originales inchangées dans le dossier parent"
+  "sources": "photographies originales inchangées dans le dossier parent",
+  "version": "Correction morphologie du 12 novembre"
 }

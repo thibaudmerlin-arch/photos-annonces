@@ -1,0 +1,1806 @@
+{
+  "date": "2026-11-12",
+  "source": "Lecture directe Shopify, stock supérieur à zéro, 150 fiches. Ce relevé ne garantit pas la synchronisation des ventes Vinted/Leboncoin.",
+  "articles": [
+    {
+      "id_shopify": "gid://shopify/Product/11803189674325",
+      "id_vinted": "10758618709",
+      "title": "Polaire Jack Wolfskin Nanuk noire – Femme Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190034773",
+      "id_vinted": "10758485646",
+      "title": "Body noir à manches transparentes fleuries – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Bodies",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190133077",
+      "id_vinted": "10758697872",
+      "title": "Pull polaire Disney Tic et Tac – Femme taille 40/42",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pyjamas et tenues de nuit",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190231381",
+      "id_vinted": "10749868781",
+      "title": "Pull léopard Lily Sidonio femme – Taille S/M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pulls d'hiver",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190264149",
+      "id_vinted": "10749451703",
+      "title": "Bottines de pluie Tommy Hilfiger femme – Taille 39",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Bottes de pluie",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190329685",
+      "id_vinted": "10731917535",
+      "title": "Doudoune Columbia femme – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Parkas",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190427989",
+      "id_vinted": "10733775194",
+      "title": "Blazer vert foncé - Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blazers",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190493525",
+      "id_vinted": "10733918346",
+      "title": "Veste coupe-vent Nike Basketball – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190624597",
+      "id_vinted": "10732138287",
+      "title": "Polaire homme Lands’ End – Taille XL",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190722901",
+      "id_vinted": "10732650522",
+      "title": "Polaire Jack Wolfskin – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190788437",
+      "id_vinted": "10733699575",
+      "title": "Veste puma noire - Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803190919509",
+      "id_vinted": "10733834275",
+      "title": "Veste Champion C9 femme – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "vinted-xrbkz",
+        "Vêtements d'extérieur"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191017813",
+      "id_vinted": "10733737751",
+      "title": "Manteau coupe vent Nike - Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191083349",
+      "id_vinted": "10732992731",
+      "title": "Pull en grosse maille Tiffosi – Femme XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pulls d'hiver",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191148885",
+      "id_vinted": "10732332531",
+      "title": "Haut Desigual femme – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blouses manches longues",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191214421",
+      "id_vinted": "10722569621",
+      "title": "Doudoune Columbia femme – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes matelassées",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191312725",
+      "id_vinted": "10722117887",
+      "title": "Polaire femme Under Armour – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191345493",
+      "id_vinted": "10723241510",
+      "title": "Veste manteau coupe-vent The North Face – Taille S – Gore-Tex",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191443797",
+      "id_vinted": "10722958112",
+      "title": "Veste polaire Umbro vintage – Taille L (48 FR)",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191476565",
+      "id_vinted": "10721901267",
+      "title": "Polaire FILA femme – Taille XL",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191574869",
+      "id_vinted": "10719059157",
+      "title": "Veste polaire Eddie Bauer – Taille estimée XL – Vert émeraude",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191640405",
+      "id_vinted": "10703634438",
+      "title": "Veste Adidas Originals vintage – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes matelassées",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191705941",
+      "id_vinted": "10703291878",
+      "title": "Sweat Kenzo Tiger rouge – Taille XS – Mixte",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "enfant",
+        "Pulls à capuche et sweatshirts",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191771477",
+      "id_vinted": "10703249797",
+      "title": "Sweat Ellesse gris – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Sweats",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191837013",
+      "id_vinted": "10675178296",
+      "title": "Sweat femme Galeries Lafayette – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Sweats",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191869781",
+      "id_vinted": "10673878837",
+      "title": "Poncho en laine bien chaud – Taille unique – Style bohème vintage",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Capes et ponchos",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803191902549",
+      "id_vinted": "10676736020",
+      "title": "Pull col V Tommy Hilfiger – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Sweats à col V",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192033621",
+      "id_vinted": "10675267977",
+      "title": "Sweat crop top Champion femme – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Sweats & sweats à capuche",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192099157",
+      "id_vinted": "10662908686",
+      "title": "Manteau Columbia – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192164693",
+      "id_vinted": "10677306456",
+      "title": "Sweat Nike gris – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Sweats",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192230229",
+      "id_vinted": "10676761006",
+      "title": "Pull col V Tommy Hilfiger – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Sweats à col V",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192295765",
+      "id_vinted": "10672866739",
+      "title": "Manteau Columbia vintage – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes de ski et snowboard",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192361301",
+      "id_vinted": "10673677670",
+      "title": "Pull tout doux violet lilas – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pulls d'hiver",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192426837",
+      "id_vinted": "10675353381",
+      "title": "Sweat à capuche Nike – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Pulls et pulls à capuche",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192492373",
+      "id_vinted": "10650702655",
+      "title": "Veste Nike femme – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192525141",
+      "id_vinted": "10650847633",
+      "title": "Veste FILA noire – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192557909",
+      "id_vinted": "10673761201",
+      "title": "Sweat crop top Bershka Atlanta – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Sweats & sweats à capuche",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192623445",
+      "id_vinted": "10673819897",
+      "title": "Sweat Tommy Hilfiger x Gigi Hadid – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Sweats",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192721749",
+      "id_vinted": "10673159890",
+      "title": "Haut noir style Y2K – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blouses manches longues",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192787285",
+      "id_vinted": "10673115094",
+      "title": "Lot de 2 pulls sans manches en laine – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Débardeurs",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192852821",
+      "id_vinted": "10650315626",
+      "title": "Veste Champion homme – Taille XXL",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192885589",
+      "id_vinted": "10662420051",
+      "title": "Doudoune Columbia homme – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Doudounes",
+        "homme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803192951125",
+      "id_vinted": "10650524498",
+      "title": "Bottes hautes en velours noir – Style gothique chic – Taille 37",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Cuissardes",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193016661",
+      "id_vinted": "10649527580",
+      "title": "Veste Nike homme – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193049429",
+      "id_vinted": "10581980138",
+      "title": "Jupe Desigual – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Jupes longueur genou",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193147733",
+      "id_vinted": "10558042326",
+      "title": "Pantalon fluide Pimkie – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pantalons à jambes larges",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193180501",
+      "id_vinted": "10582283951",
+      "title": "Robe TEXTO – Taille M – Style vintage",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Mini",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193246037",
+      "id_vinted": "10581663269",
+      "title": "Robe noire asymétrique Patrice Bréal – Style vintage Y2K",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Petites robes noires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193311573",
+      "id_vinted": "10582171202",
+      "title": "Haut femme – Taille M – Modèle déposé – Fabriqué en France",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "T-shirts",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193377109",
+      "id_vinted": "10542839788",
+      "title": "Sac Morgan noir à franges et clous – Style gothique chic / rock",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Sacs à bandoulière",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193442645",
+      "id_vinted": "10542800970",
+      "title": "Jean Dsquared2 – Taille 36 – Noir délavé",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Jeans troués",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193475413",
+      "id_vinted": "10581352017",
+      "title": "Haut manches longues Y2K – Style années 2000 – Taille unique",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blouses manches longues",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193508181",
+      "id_vinted": "10581242100",
+      "title": "Manteau en peau et fourrure – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pardessus et manteaux longs",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193573717",
+      "id_vinted": "10411578405",
+      "title": "Chemise vintage Jules à carreaux – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Chemises à carreaux",
+        "homme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193672021",
+      "id_vinted": "10542327630",
+      "title": "Chapeau noir en laine Pimkie – Taille 01 – Style bohème rock",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Chapeaux",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193737557",
+      "id_vinted": "10542056700",
+      "title": "Bottines léopard fourrées Forever Young – Taille 39",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Bottines",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193835861",
+      "id_vinted": "10410942723",
+      "title": "Pantalon évasé style années 2000 Y2K – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pantalons à jambes larges",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193934165",
+      "id_vinted": "10529941685",
+      "title": "Doudoune sans manches IZOD – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes sans manches",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803193999701",
+      "id_vinted": "10558118716",
+      "title": "Veste coupe-vent Tommy Hilfiger – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194032469",
+      "id_vinted": "10558493063",
+      "title": "Ensemble Ralph Lauren – Blazer & jupe – Taille 38",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blazers",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194098005",
+      "id_vinted": "10541885962",
+      "title": "Haut en velours noir Pimkie – Taille XS – Style gothique chic",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blouses manches longues",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194130773",
+      "id_vinted": "10412377202",
+      "title": "Mini-jupe Zara kaki marron – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194196309",
+      "id_vinted": "10529766154",
+      "title": "Veste coupe-vent Champion – Taille XXL",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194294613",
+      "id_vinted": "10540691485",
+      "title": "Jupe en similicuir H&M – Taille 38",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194392917",
+      "id_vinted": "10530789160",
+      "title": "Doudoune G-Star RAW – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Doudounes",
+        "homme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194425685",
+      "id_vinted": "10389162275",
+      "title": "Jean Guess – Taille 36",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Jeans droits",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194523989",
+      "id_vinted": "10498664401",
+      "title": "Veste coupe-vent Champion – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194556757",
+      "id_vinted": "10496580444",
+      "title": "Veste coupe-vent Reebok – Taille XXL",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194655061",
+      "id_vinted": "10413218409",
+      "title": "Polo Ralph Lauren homme – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Polos",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194720597",
+      "id_vinted": "10387370469",
+      "title": "Magnifique veste brodée et perlée – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blazers",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194786133",
+      "id_vinted": "10386946424",
+      "title": "Veste en cuir marron vintage – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194818901",
+      "id_vinted": "10412325067",
+      "title": "Veste vintage réversible patchwork – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blousons aviateur",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194884437",
+      "id_vinted": "10496379093",
+      "title": "Veste Nike SB homme – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194949973",
+      "id_vinted": "10346705588",
+      "title": "Mini-jupe à carreaux Amisu – Taille S – Style vintage chic",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803194982741",
+      "id_vinted": "10413032876",
+      "title": "Veste Nike doublée polaire – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "vinted-xrbkz",
+        "Vêtements d'extérieur"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195048277",
+      "id_vinted": "10412454808",
+      "title": "Veste Nike Golf – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195081045",
+      "id_vinted": "10411128190",
+      "title": "Blouse bleu marine à manches en dentelle – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blouses",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195179349",
+      "id_vinted": "10411027898",
+      "title": "Haut vert émeraude à manches plissées – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blouses",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195277653",
+      "id_vinted": "10411062488",
+      "title": "Robe Zara à fines rayures – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Robes longues",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195343189",
+      "id_vinted": "10411650550",
+      "title": "Gilet de costume sans manches Bershka – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Tailleurs pièces séparées",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195441493",
+      "id_vinted": "10412700800",
+      "title": "Manteau Champion homme – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195539797",
+      "id_vinted": "10386842216",
+      "title": "Veste vintage Morgan en velours côtelé rose – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blazers",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195605333",
+      "id_vinted": "10386709539",
+      "title": "Polo Lacoste L!VE manches longues – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Polos",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195670869",
+      "id_vinted": "10358158135",
+      "title": "Jupe courte kaki style vintage Y2K / Cargo – Taille 38",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195736405",
+      "id_vinted": "10358389960",
+      "title": "Jupe velours - Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Jupes longues",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195801941",
+      "id_vinted": "10388217095",
+      "title": "Jean Levi’s – Taille XS (W25)",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Jeans évasés",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195867477",
+      "id_vinted": "10389070165",
+      "title": "Veste Under Armour – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803195933013",
+      "id_vinted": "10387441232",
+      "title": "Jupe vintage en velours côtelé vert foncé – Taille 32",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196031317",
+      "id_vinted": "10386599316",
+      "title": "Veste FILA noire – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196064085",
+      "id_vinted": "10387067188",
+      "title": "Jean Stradivarius à strass – Pattes d’éléphant – Taille 36",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Jeans taille haute",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196096853",
+      "id_vinted": "10358020221",
+      "title": "Jean rayé vintage Rica Lewis – Taille 36",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pantalons droits",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196162389",
+      "id_vinted": "10345823930",
+      "title": "Blouson moto Bering femme – Taille 4",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Perfectos et blousons de moto",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196260693",
+      "id_vinted": "10345543788",
+      "title": "Robe noire gothique chic en dentelle – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Mini",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196326229",
+      "id_vinted": "10358245962",
+      "title": "Jean Zara noir délavé – Coupe baggy / Barrel – Taille 32",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Pantalons à jambes larges",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196391765",
+      "id_vinted": "10358191393",
+      "title": "Jupe plissée en similicuir camel – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196457301",
+      "id_vinted": "10346233304",
+      "title": "Jean noir à strass – Style Y2K / Années 2000 – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Jeans évasés",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196522837",
+      "id_vinted": "10358084844",
+      "title": "Veste chic à motifs jacquard – Nina Kaufman – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blazers",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196588373",
+      "id_vinted": "10344867546",
+      "title": "Manteau DDP original à volants Y2K – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Trenchs",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196653909",
+      "id_vinted": "10346538605",
+      "title": "Robe longue automnale - Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Robes longues",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196719445",
+      "id_vinted": "10344756595",
+      "title": "T-shirt Zara à motifs fleuris – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "T-shirts",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196784981",
+      "id_vinted": "10346660719",
+      "title": "Jupe longue bohème beige – Taille unique – Style vintage",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Jupes longues",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196817749",
+      "id_vinted": "10345083109",
+      "title": "Robe Zara noire à œillets métalliques – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Petites robes noires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196883285",
+      "id_vinted": "10293697481",
+      "title": "Veste Nike homme - Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Pulls à capuche avec zip",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803196948821",
+      "id_vinted": "10293248967",
+      "title": "Chemise femme - Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Chemises",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197047125",
+      "id_vinted": "10291933553",
+      "title": "Veste Lacoste vintage – 16 ans",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "enfant",
+        "vinted-xrbkz",
+        "Vêtements de sport"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197145429",
+      "id_vinted": "10278974210",
+      "title": "Pantalon Cargo - Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pantalons à jambes larges",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197210965",
+      "id_vinted": "10269053614",
+      "title": "Veste en tweed Made in Italy – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blazers",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197309269",
+      "id_vinted": "10269900415",
+      "title": "Jupe à sequins Vera & Lucy – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197374805",
+      "id_vinted": "10269838699",
+      "title": "Jupe à sequins Pull&Bear – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197440341",
+      "id_vinted": "10269737733",
+      "title": "Jupe à sequins léopard Rinascimento – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197505877",
+      "id_vinted": "10269152003",
+      "title": "Veste Tinsels – Maison française – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blazers",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197538645",
+      "id_vinted": "10240077414",
+      "title": "Chemise Superdry rayée – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Chemises à rayures",
+        "homme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197669717",
+      "id_vinted": "10268777425",
+      "title": "Veste en cuir Aldec Cuir – Taille 38",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Perfectos et blousons de moto",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197735253",
+      "id_vinted": "10240002502",
+      "title": "Veste Nike garçon – Taille S / 8-10 ans",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "enfant",
+        "vinted-xrbkz",
+        "Vêtements de sport"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197800789",
+      "id_vinted": "10239938449",
+      "title": "Robe chemise Bershka beige – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Mini",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197866325",
+      "id_vinted": "10258884383",
+      "title": "Chemise rayée fait main – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Chemises",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803197931861",
+      "id_vinted": "10258831446",
+      "title": "Robe ba&sh vert foncé – Taille XS (0)",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Mini",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198030165",
+      "id_vinted": "10258308824",
+      "title": "Jupe à carreaux Forever 21",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Minijupes",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198095701",
+      "id_vinted": "10257561626",
+      "title": "Chemise homme Abercrombie & Fitch",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Chemises à carreaux",
+        "homme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198194005",
+      "id_vinted": "10239507533",
+      "title": "Sweat Pull&Bear Polychrome – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "enfant",
+        "Pulls à capuche & sweatshirts",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198292309",
+      "id_vinted": "10238875337",
+      "title": "Veste matelassée VILA – Taille 36",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes matelassées",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198390613",
+      "id_vinted": "10203910840",
+      "title": "Doudoune ski vintage turquoise – duvet d’oie",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Doudounes",
+        "homme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198488917",
+      "id_vinted": "10191198645",
+      "title": "Maillot de bain Moncler – Homme – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Maillots de bain",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198554453",
+      "id_vinted": "10191151800",
+      "title": "Sweat Kenzo Tigre – Femme – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Sweats & sweats à capuche",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198652757",
+      "id_vinted": "10189213251",
+      "title": "Haut cache-cœur noir à cœurs blancs – Eight Paris – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Blouses manches longues",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198751061",
+      "id_vinted": "10189074189",
+      "title": "Robe noir mango - Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Robes longues",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198849365",
+      "id_vinted": "10180640220",
+      "title": "T-shirt Nike noir – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "T-shirts unis",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803198914901",
+      "id_vinted": "10180000929",
+      "title": "T-shirt Superdry gris vintage – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "T-shirts imprimés",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199013205",
+      "id_vinted": "10179876350",
+      "title": "T-shirt Superdry vintage vert – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "T-shirts imprimés",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199111509",
+      "id_vinted": "10181094997",
+      "title": "T-shirt Bershka imprimé rétro – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "T-shirts",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199209813",
+      "id_vinted": "10171342779",
+      "title": "Veste en jean moumoute Creeks – Taille 38",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes en jean",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199275349",
+      "id_vinted": "10096797633",
+      "title": "Chemise Zara homme rayée – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Chemises à rayures",
+        "homme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199340885",
+      "id_vinted": "10085806797",
+      "title": "T-shirt Stranger Things Zara édition limitée – 11/12 ans – 148 cm",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "enfant",
+        "T-shirts",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199439189",
+      "id_vinted": "10082862740",
+      "title": "Polo Ellesse noir – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Polos",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199537493",
+      "id_vinted": "10080478497",
+      "title": "Polo Ralph Lauren homme bleu – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Polos",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199635797",
+      "id_vinted": "10054982675",
+      "title": "Robe longue fleurie Pimkie – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Robes longues",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199701333",
+      "id_vinted": "9963429979",
+      "title": "Robe fleurie – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Robes d'été",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199799637",
+      "id_vinted": "9962900900",
+      "title": "Gilet sans manches en crochet",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Débardeurs",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199865173",
+      "id_vinted": "9961492172",
+      "title": "Chemise rose fuchsia de chez Zara, taille S.",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "Chemises",
+        "femme",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803199963477",
+      "id_vinted": "9953803420",
+      "title": "Robe kaki Mango – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Mini",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200061781",
+      "id_vinted": "9953486817",
+      "title": "Pantalon rose H&M – Taille 36",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pantalons droits",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200160085",
+      "id_vinted": "9953112892",
+      "title": "Jean troué style décontracté – Taille 36",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Jeans troués",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200291157",
+      "id_vinted": "9951887742",
+      "title": "T-shirt dentelle marron Pimkie – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Tops peplum",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200454997",
+      "id_vinted": "10758582462",
+      "title": "Manteau Columbia femme – Taille M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200487765",
+      "id_vinted": "10758727603",
+      "title": "Veste Columbia Titanium – Taille XL",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200586069",
+      "id_vinted": "10758439351",
+      "title": "Manteau ba&sh en maille bouclée – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Pardessus et manteaux longs",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200651605",
+      "id_vinted": "10750405052",
+      "title": "Robe ba&sh – Taille XS",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Robes casual",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200749909",
+      "id_vinted": "10749516707",
+      "title": "Veste bomber brodée ZARA femme – Taille S",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Vestes coupe-vent",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200815445",
+      "id_vinted": "10732315973",
+      "title": "Polaire Lands’ End – Taille L",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "homme",
+        "Vestes polaires",
+        "vinted-xrbkz"
+      ]
+    },
+    {
+      "id_shopify": "gid://shopify/Product/11803200913749",
+      "id_vinted": "10358069794",
+      "title": "Robe noire à volants – Style gothique romantique / Bohème – Taille S/M",
+      "stock": 1,
+      "status": "DRAFT",
+      "tags": [
+        "femme",
+        "Petites robes noires",
+        "vinted-xrbkz"
+      ]
+    }
+  ]
+}

@@ -3,11 +3,12 @@
   "date": "2026-11-12",
   "genre": "Homme",
   "taille_annoncee": "M",
-  "preuve": "Fiche Vinted et mesures photographiées, étiquette taille non lisible",
-  "morphologie": "Moyenne demandée mais rendu mince",
-  "validation": "À VÉRIFIER — NE PAS PUBLIER",
-  "commentaire": "Confirmer taille et tombé avec largeur environ 63 cm. Ne pas présenter comme ajusté",
+  "preuve": "Homme M selon CLAUDE-040 et Shopify. Nouvelle paire sur morphologie moyenne avec aisance, longueur et coupe ample respectées ; largeur photographiée environ 63 cm. Étiquette taille non lisible.",
+  "morphologie": "Homme moyen, buste compact",
+  "validation": "VALIDÉE",
+  "commentaire": "Contrôle visuel accepté. Les tailles non lisibles sont explicitement sourcées à la fiche Vinted transmise et au catalogue, sans prétendre les avoir lues sur étiquette.",
   "copie_pc_windows": "NON RÉALISÉE",
   "generation": "outil image intégré",
-  "sources": "photographies originales inchangées dans le dossier parent"
+  "sources": "photographies originales inchangées dans le dossier parent",
+  "version": "Correction morphologie du 12 novembre"
 }
