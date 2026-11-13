@@ -1,29 +1,27 @@
-﻿À PUBLIER DEMAIN — samedi 14/11/2026
+﻿À PUBLIER DEMAIN — samedi 14/11/2026 (préparé le 13/11, sans IA)
 
-Reposts : supprimer d'abord l'ancienne annonce leboncoin (n° indiqué, motif « Autre »), sauf si un acheteur a écrit dans les 5 derniers jours.
-Puis nouvelle annonce : TITRE + DESCRIPTION depuis annonce.txt ; photos dans l'ordre (photo1_IA_face, photo2_IA_autre_angle, puis photo3…) ;
-prix = prix_NE_PAS_PUBLIER.jpg ; Très bon état ; Toulouse 31000 ; main propre + livraison ; sans boost.
-Nouveautés : nouvelle annonce directement.
-M'envoyer les numéros des nouvelles annonces.
+16 REPOSTS. Pour chacun, À VÉRIFIER AVANT DE SUPPRIMER l'ancienne annonce : pas de boost, aucun message ni offre de moins de 5 jours, article toujours dispo.
+(La sélection vient du relevé leboncoin du 11/11 : 0 conversation à ce moment-là.)
 
-=== AVEC PHOTOS IA (0) ===
+Procédure : supprimer l'ancienne annonce (n° indiqué, motif « Autre »), puis nouvelle annonce avec TITRE + DESCRIPTION de annonce.txt, photos photo1, photo2… dans l'ordre,
+prix = prix_NE_PAS_PUBLIER.jpg (prix leboncoin actuel, inchangé), Très bon état, Toulouse 31000, main propre + livraison, sans boost.
 
-=== PHOTOS IA EN ATTENTE (16) — voir RELAIS_MANUEL_THIBAUD.md ===
-- Chemise rose fuchsia de chez Zara, taille S — 8 € — Vinted 9961492172 — ancienne annonce 3305941254
-- Sweat crop top Bershka Atlanta – Taille S — 9 € — Vinted 10673761201 — ancienne annonce 3305930128
-- T-shirt dentelle marron Pimkie – Taille S — 5 € — Vinted 9951887742 — ancienne annonce 3305916698
-- Jean troué style décontracté – Taille 36 — 6 € — Vinted 9953112892 — ancienne annonce 3305915787
-- Gilet sans manches en crochet — 10 € — Vinted 9962900900 — ancienne annonce 3305912136
-- Robe fleurie – Taille S — 10 € — Vinted 9963429979 — ancienne annonce 3305910372
-- T-shirt Stranger Things Zara édition limitée – 11/12 ans – 148 cm — 14 € — Vinted 10085806797 — ancienne annonce 3305905908
-- Chemise rayée fait main – Taille S — 10 € — Vinted 10258884383 — ancienne annonce 3305882026
-- Haut vert émeraude à manches plissées – Taille S — 11 € — Vinted 10411027898 — ancienne annonce 3305812686
-- Blouse bleu marine à manches en dentelle – Taille S — 11 € — Vinted 10411128190 — ancienne annonce 3305811549
-- Manteau Columbia vintage – Taille L — 50 € — Vinted 10672866739 — ancienne annonce 3305623494
-- Sweat Kenzo Tigre – Femme – Taille XS — 50 € — Vinted 10191151800 — ancienne annonce 3305940051
-- Robe kaki Mango – Taille M — 10 € — Vinted 9953803420 — ancienne annonce 3305913063
-- Veste en jean moumoute Creeks – Taille 38 — 24 € — Vinted 10171342779 — ancienne annonce 3305903554
-- Robe noire plissée Mango décolleté V – Taille S — 14 € — Vinted 10189074189 — ancienne annonce 3305895258
-- Maillot de bain Moncler – Homme – Taille S — 79 € — Vinted 10191198645 — ancienne annonce 3305893285
+Pas de nouveauté Vinted pour l'instant (Eddie Bauer, ensemble ZARA et CK Jeans ont été publiés le 13/11). Les nouveautés détectées d'ici demain seront ajoutées ici.
 
-=== BLOQUÉS — NE PAS PUBLIER (0) ===
+=== REPOSTS (16) ===
+- 01 · T-shirt dentelle marron Pimkie – Taille S – Très bon état — 5 € — ancienne annonce lbc 3305916698 — Vinted 9951887742 — 1 photo(s)
+- 02 · Jean troué style décontracté – Taille 36 – Très bon état — 6 € — ancienne annonce lbc 3305915787 — Vinted 9953112892 — 2 photo(s)
+- 03 · Gilet sans manches en crochet – Très bon état — 10 € — ancienne annonce lbc 3305912136 — Vinted 9962900900 — 1 photo(s)
+- 04 · Robe fleurie – Taille S – Très bon état — 10 € — ancienne annonce lbc 3305910372 — Vinted 9963429979 — 1 photo(s)
+- 05 · T-shirt Stranger Things Zara édition limitée – 11/12 ans – 148 cm – Très bon état — 14 € — ancienne annonce lbc 3305905908 — Vinted 10085806797 — 2 photo(s)
+- 06 · Chemise rayée fait main – Taille S – Très bon état — 10 € — ancienne annonce lbc 3305882026 — Vinted 10258884383 — 1 photo(s)
+- 07 · Haut vert émeraude à manches plissées – Taille S – Très bon état — 11 € — ancienne annonce lbc 3305812686 — Vinted 10411027898 — 1 photo(s)
+- 08 · Blouse bleu marine à manches en dentelle – Taille S – Très bon état — 11 € — ancienne annonce lbc 3305811549 — Vinted 10411128190 — 2 photo(s)
+- 09 · Manteau Columbia vintage – Taille L – Très bon état — 50 € — ancienne annonce lbc 3305623494 — Vinted 10672866739 — 4 photo(s)
+- 10 · Sweat Kenzo Tigre – Femme – Taille XS – Très bon état — 50 € — ancienne annonce lbc 3305940051 — Vinted 10191151800 — 3 photo(s)
+- 11 · Robe kaki Mango – Taille M – Très bon état — 10 € — ancienne annonce lbc 3305913063 — Vinted 9953803420 — 2 photo(s)
+- 12 · Veste en jean moumoute Creeks – Taille 38 – Très bon état — 24 € — ancienne annonce lbc 3305903554 — Vinted 10171342779 — 2 photo(s)
+- 13 · Robe noir mango - Taille S — 14 € — ancienne annonce lbc 3305895258 — Vinted 10189074189 — 4 photo(s)
+- 14 · Maillot de bain Moncler – Homme – Taille S – Très bon état — 79 € — ancienne annonce lbc 3305893285 — Vinted 10191198645 — 6 photo(s)
+- 15 · Veste matelassée VILA – Taille 36 – Très bon état — 29 € — ancienne annonce lbc 3305890586 — Vinted 10238875337 — 2 photo(s)
+- 16 · Chemise Superdry rayée – Taille M – Très bon état — 22 € — ancienne annonce lbc 3305877749 — Vinted 10240077414 — 2 photo(s)
