@@ -6,7 +6,7 @@ MARQUE :
 CATÉGORIE : Femmes>Vêtements
 TAILLE : XS
 ÉTAT : Très bon état
-PRIX (= Vinted) : 59 € (annonce leboncoin actuelle à 50 € → aligner sur Vinted)
+PRIX (= Vinted) : 50 €
 LOCALISATION : Toulouse 31000
 OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-13 (pour publication 14/11)

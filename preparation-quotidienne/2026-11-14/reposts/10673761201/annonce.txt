@@ -6,7 +6,7 @@ MARQUE :
 CATÉGORIE : Femmes>Vêtements
 TAILLE : S
 ÉTAT : Très bon état
-PRIX (= Vinted) : 11 € (annonce leboncoin actuelle à 9 € → aligner sur Vinted)
+PRIX (= Vinted) : 9 €
 LOCALISATION : Toulouse 31000
 OPTIONS : remise en main propre + livraison
 DATE DE PRÉPARATION : 2026-11-13 (pour publication 14/11)
