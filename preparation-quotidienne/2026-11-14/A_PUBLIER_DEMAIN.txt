@@ -1,0 +1,29 @@
+﻿À PUBLIER DEMAIN — samedi 14/11/2026
+
+Reposts : supprimer d'abord l'ancienne annonce leboncoin (n° indiqué, motif « Autre »), sauf si un acheteur a écrit dans les 5 derniers jours.
+Puis nouvelle annonce : TITRE + DESCRIPTION depuis annonce.txt ; photos dans l'ordre (photo1_IA_face, photo2_IA_autre_angle, puis photo3…) ;
+prix = prix_NE_PAS_PUBLIER.jpg ; Très bon état ; Toulouse 31000 ; main propre + livraison ; sans boost.
+Nouveautés : nouvelle annonce directement.
+M'envoyer les numéros des nouvelles annonces.
+
+=== AVEC PHOTOS IA (0) ===
+
+=== PHOTOS IA EN ATTENTE (16) — voir RELAIS_MANUEL_THIBAUD.md ===
+- Chemise rose fuchsia de chez Zara, taille S — 8 € — Vinted 9961492172 — ancienne annonce 3305941254
+- Sweat crop top Bershka Atlanta – Taille S — 11 € — Vinted 10673761201 — ancienne annonce 3305930128
+- T-shirt dentelle marron Pimkie – Taille S — 5 € — Vinted 9951887742 — ancienne annonce 3305916698
+- Jean troué style décontracté – Taille 36 — 6 € — Vinted 9953112892 — ancienne annonce 3305915787
+- Gilet sans manches en crochet — 10 € — Vinted 9962900900 — ancienne annonce 3305912136
+- Robe fleurie – Taille S — 10 € — Vinted 9963429979 — ancienne annonce 3305910372
+- T-shirt Stranger Things Zara édition limitée – 11/12 ans – 148 cm — 14 € — Vinted 10085806797 — ancienne annonce 3305905908
+- Chemise rayée fait main – Taille S — 10 € — Vinted 10258884383 — ancienne annonce 3305882026
+- Haut vert émeraude à manches plissées – Taille S — 11 € — Vinted 10411027898 — ancienne annonce 3305812686
+- Blouse bleu marine à manches en dentelle – Taille S — 11 € — Vinted 10411128190 — ancienne annonce 3305811549
+- Manteau Columbia vintage – Taille L — 50 € — Vinted 10672866739 — ancienne annonce 3305623494
+- Sweat Kenzo Tigre – Femme – Taille XS — 59 € — Vinted 10191151800 — ancienne annonce 3305940051
+- Robe kaki Mango – Taille M — 10 € — Vinted 9953803420 — ancienne annonce 3305913063
+- Veste en jean moumoute Creeks – Taille 38 — 24 € — Vinted 10171342779 — ancienne annonce 3305903554
+- Robe noire plissée Mango décolleté V – Taille S — 14 € — Vinted 10189074189 — ancienne annonce 3305895258
+- Maillot de bain Moncler – Homme – Taille S — 79 € — Vinted 10191198645 — ancienne annonce 3305893285
+
+=== BLOQUÉS — NE PAS PUBLIER (0) ===
